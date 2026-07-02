@@ -1,0 +1,36 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Demo Public Service API",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.example.invalid/v1"
+    }
+  ],
+  "paths": {
+    "/datasets": {
+      "get": {
+        "summary": "List public datasets",
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        }
+      }
+    },
+    "/datasets/{id}": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "404": {
+            "description": "Dataset not found"
+          }
+        }
+      }
+    }
+  }
+}
