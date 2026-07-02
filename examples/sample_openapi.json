@@ -2,32 +2,85 @@
   "openapi": "3.0.3",
   "info": {
     "title": "Demo Public Service API",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "description": "Example public-service API documentation used to demonstrate OpenGovSec security-documentation checks.",
+    "contact": {
+      "name": "Demo API Support",
+      "email": "support@example.invalid"
+    },
+    "license": {
+      "name": "CC-BY-4.0",
+      "url": "https://example.invalid/license"
+    }
   },
   "servers": [
     {
       "url": "https://api.example.invalid/v1"
     }
   ],
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "bearerAuth": []
+    }
+  ],
   "paths": {
     "/datasets": {
       "get": {
         "summary": "List public datasets",
+        "description": "Returns a paginated list of public dataset metadata records.",
+        "operationId": "listDatasets",
         "responses": {
           "200": {
             "description": "Successful response"
+          },
+          "401": {
+            "description": "Authentication is missing or invalid"
+          },
+          "429": {
+            "description": "Rate limit exceeded"
+          },
+          "500": {
+            "description": "Unexpected server error"
           }
         }
       }
     },
     "/datasets/{id}": {
       "get": {
+        "summary": "Get public dataset metadata",
+        "description": "Returns metadata for one public dataset record by identifier.",
+        "operationId": "getDatasetById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "Successful response"
           },
+          "401": {
+            "description": "Authentication is missing or invalid"
+          },
           "404": {
             "description": "Dataset not found"
+          },
+          "500": {
+            "description": "Unexpected server error"
           }
         }
       }
