@@ -1,6 +1,6 @@
 # Usage
 
-OpenGovSec Toolkit currently provides two passive commands.
+OpenGovSec Toolkit currently provides three passive commands.
 
 ## 1. Scan open-data metadata
 
@@ -28,6 +28,20 @@ Write a Markdown report:
 
 ```bash
 opengovsec check-api-doc --input examples/sample_openapi.json --output reports/demo_api_report.md
+```
+
+## 3. Check repository readiness
+
+Input: a local JSON file that declares basic repository metadata.
+
+```bash
+opengovsec check-repository --input examples/sample_repository_metadata.json
+```
+
+Write a Markdown report:
+
+```bash
+opengovsec check-repository --input examples/sample_repository_metadata.json --output reports/demo_repository_report.md
 ```
 
 ## Current design principle
