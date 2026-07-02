@@ -12,7 +12,7 @@ The initial OpenGovSec risk model is intentionally simple and explainable.
 | high | 3 |
 | critical | 4 |
 
-## Dataset risk level
+## Risk level mapping
 
 | Score | Level |
 |---:|---|
@@ -21,7 +21,7 @@ The initial OpenGovSec risk model is intentionally simple and explainable.
 | 6-8 | high |
 | 9+ | critical |
 
-## Current finding catalogue
+## Open-data finding catalogue
 
 | Code | Severity | Meaning |
 |---|---|---|
@@ -34,6 +34,17 @@ The initial OpenGovSec risk model is intentionally simple and explainable.
 | `no-machine-readable-resource` | medium | No declared machine-readable format is present. |
 | `resource-missing-url` | medium | One or more resources lack a URL field. |
 
+## API documentation finding catalogue
+
+| Code | Severity | Meaning |
+|---|---|---|
+| `missing-openapi-version` | medium | No OpenAPI or Swagger version field is present. |
+| `missing-paths` | high | No documented API paths are present. |
+| `missing-servers` | low | No server/base URL declaration is present. |
+| `weak-operation-text` | low | One or more operations lack summary or description text. |
+
 ## Notes
 
 This model is meant for prioritization and portfolio demonstration. It can be refined with domain-specific weights, policy requirements, and manual validation.
+
+The current modules are document-based and do not perform live service testing.
