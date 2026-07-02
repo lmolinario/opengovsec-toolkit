@@ -8,7 +8,7 @@ The project focuses on practical, reproducible, and transparent checks for publi
 
 - Assess open-data metadata quality and operational risk.
 - Check API documentation and interoperability readiness.
-- Evaluate software supply-chain exposure in public-sector open-source projects.
+- Evaluate repository reuse readiness in public-sector open-source projects.
 - Produce clear reports for technical, governance, and compliance audiences.
 - Support portfolio, research, and professional development in cybersecurity, data governance, and public-sector digital transformation.
 
@@ -20,6 +20,7 @@ Implemented:
 
 - Open Data Risk Scanner.
 - API Documentation Checker.
+- Repository Readiness Checker.
 - Markdown report generation.
 - Python package configuration.
 - CLI entry point.
@@ -73,6 +74,18 @@ Generate a Markdown report:
 opengovsec check-api-doc --input examples/sample_openapi.json --output reports/demo_api_report.md
 ```
 
+### Repository readiness check
+
+```bash
+opengovsec check-repository --input examples/sample_repository_metadata.json
+```
+
+Generate a Markdown report:
+
+```bash
+opengovsec check-repository --input examples/sample_repository_metadata.json --output reports/demo_repository_report.md
+```
+
 ## Modules
 
 ### 1. Open Data Risk Scanner
@@ -101,20 +114,19 @@ Initial checks:
 - operation summaries or descriptions;
 - risk scoring.
 
-### 3. Software Supply-Chain Radar
+### 3. Repository Readiness Checker
 
-Planned module for assessing open-source software repositories used or published in public-sector contexts.
+Evaluates local repository metadata declarations for reuse and maintainability signals.
 
-Planned checks:
+Initial checks:
 
-- license;
-- last activity;
-- dependency files;
-- CI/CD presence;
-- Dockerfile presence;
-- security policy;
-- SBOM readiness;
-- issue and maintenance signals.
+- license declaration;
+- README presence;
+- dependency manifest presence;
+- CI workflow declaration;
+- contribution/community documentation;
+- declared repository activity;
+- risk scoring.
 
 ## Intended use
 
@@ -127,6 +139,7 @@ It is not intended for unauthorized security testing, exploitation, vulnerabilit
 - [`docs/methodology.md`](docs/methodology.md)
 - [`docs/risk_model.md`](docs/risk_model.md)
 - [`docs/roadmap.md`](docs/roadmap.md)
+- [`docs/usage.md`](docs/usage.md)
 
 ## License
 
