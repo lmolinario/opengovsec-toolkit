@@ -22,7 +22,7 @@ Implemented:
 - API Documentation Checker.
 - Repository Readiness Checker.
 - Public dati.gov.it metadata helper.
-- Markdown report generation with summary and finding distribution.
+- Markdown and JSON report generation with summary and finding distribution.
 - Python package configuration.
 - CLI entry point.
 - Sample input files.
@@ -63,16 +63,23 @@ Generate a Markdown report:
 opengovsec scan-open-data --input examples/sample_datasets.json --output reports/demo_open_data_report.md
 ```
 
+Generate a machine-readable JSON report:
+
+```bash
+opengovsec scan-open-data --input examples/sample_datasets.json --output reports/demo_open_data_report.json --format json
+```
+
 Open-data reports include a summary section, a finding distribution table, and per-dataset details.
 
 ### Public dati.gov.it metadata example
 
-Download public CKAN metadata from dati.gov.it and generate a report:
+Download public CKAN metadata from dati.gov.it and generate reports:
 
 ```bash
 mkdir -p data reports
 python scripts/fetch_dati_gov_it.py --query ambiente --limit 20 --output data/dati_gov_it_ambiente.json
 opengovsec scan-open-data --input data/dati_gov_it_ambiente.json --output reports/dati_gov_it_ambiente_report_v4.md
+opengovsec scan-open-data --input data/dati_gov_it_ambiente.json --output reports/dati_gov_it_ambiente_report.json --format json
 ```
 
 The helper downloads public catalogue metadata only. The scanner remains document-based and does not probe live services.
@@ -105,16 +112,16 @@ opengovsec check-repository --input examples/sample_repository_metadata.json --o
 
 OpenGovSec includes reproducible demo reports generated from public CKAN metadata downloaded from dati.gov.it.
 
-| Query | Source data | Report | Summary |
-|---|---|---|---|
-| ambiente | [`data/dati_gov_it_ambiente.json`](data/dati_gov_it_ambiente.json) | [`reports/dati_gov_it_ambiente_report_v4.md`](reports/dati_gov_it_ambiente_report_v4.md) | 20 datasets, all low risk; service and catalogue-style resources identified. |
-| sanita | [`data/dati_gov_it_sanita.json`](data/dati_gov_it_sanita.json) | [`reports/dati_gov_it_sanita_report.md`](reports/dati_gov_it_sanita_report.md) | 20 datasets, all low risk; weak descriptions are the main finding. |
-| trasporti | [`data/dati_gov_it_trasporti.json`](data/dati_gov_it_trasporti.json) | [`reports/dati_gov_it_trasporti_report.md`](reports/dati_gov_it_trasporti_report.md) | 20 datasets, all low risk; service-style resources are the main finding. |
+| Query | Source data | Markdown report | JSON report | Summary |
+|---|---|---|---|---|
+| ambiente | [`data/dati_gov_it_ambiente.json`](data/dati_gov_it_ambiente.json) | [`reports/dati_gov_it_ambiente_report_v4.md`](reports/dati_gov_it_ambiente_report_v4.md) | [`reports/dati_gov_it_ambiente_report.json`](reports/dati_gov_it_ambiente_report.json) | 20 datasets, all low risk; service and catalogue-style resources identified. |
+| sanita | [`data/dati_gov_it_sanita.json`](data/dati_gov_it_sanita.json) | [`reports/dati_gov_it_sanita_report.md`](reports/dati_gov_it_sanita_report.md) | [`reports/dati_gov_it_sanita_report.json`](reports/dati_gov_it_sanita_report.json) | 20 datasets, all low risk; weak descriptions are the main finding. |
+| trasporti | [`data/dati_gov_it_trasporti.json`](data/dati_gov_it_trasporti.json) | [`reports/dati_gov_it_trasporti_report.md`](reports/dati_gov_it_trasporti_report.md) | [`reports/dati_gov_it_trasporti_report.json`](reports/dati_gov_it_trasporti_report.json) | 20 datasets, all low risk; service-style resources are the main finding. |
 
 These examples are intended to demonstrate the full workflow:
 
 ```text
-public catalogue metadata -> local JSON -> passive scanner -> Markdown report
+public catalogue metadata -> local JSON -> passive scanner -> Markdown/JSON report
 ```
 
 ## Modules
@@ -164,7 +171,7 @@ Initial checks:
 
 This toolkit is designed for passive, non-invasive analysis of public information, metadata, documentation, and openly available repositories.
 
-It is not intended for unauthorized security testing, exploitation, vulnerability scanning against live systems, or intrusive assessment activities.
+The scanner modules read local files and public catalogue metadata and produce triage-style governance reports.
 
 ## Project documentation
 
