@@ -1,0 +1,4981 @@
+{
+  "help": "https://www.dati.gov.it/opendata/api/3/action/help_show?name=package_search",
+  "success": true,
+  "result": {
+    "count": 8190,
+    "facets": {},
+    "results": [
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "c9286fd4-4598-4df8-9417-4cd04676a86d",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2026-05-23T22:39:21.021340",
+        "metadata_modified": "2026-06-28T00:10:16.505831",
+        "name": "ambiente",
+        "notes": "Ambiente",
+        "num_resources": 1,
+        "num_tags": 5,
+        "organization": {
+          "id": "9eeff220-80c1-4da9-a7ef-fd2af6e2fb78",
+          "name": "geodati-gov-it-rndt",
+          "title": "GeoDati - RNDT",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T18:47:26.076098",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "9eeff220-80c1-4da9-a7ef-fd2af6e2fb78",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": "info@comune.merano.bz.it"
+          },
+          {
+            "key": "contact_name",
+            "value": "Comune di Merano"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://geodati.gov.it/resource/pointOfContact/c_f132:Common:Environment-1"
+          },
+          {
+            "key": "guid",
+            "value": "https://geodati.gov.it/resource/id/c_f132:Common:Environment"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://geoservices3.civis.bz.it/geoserver/f132-Common/ows?service=WMS&version=1.3.0&request=GetCapabilities"
+          },
+          {
+            "key": "publisher_uri",
+            "value": "https://geodati.gov.it/resource/administration/c_f132:Common:Environment/publisher"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Il servizio di ricerca del RNDT fornisce l'accesso ai metadati su dati e servizi territoriali delle Pubbliche Amministrazioni italiane. Esso è conforme alle specifiche CSW (ISO Application Profile) di OGC e alle linee guida INSPIRE sui servizi di ricerca"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://geodati.gov.it/"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/ITA"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-26"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"https://indicepa.gov.it/ricerca/n-dettaglioamministrazione.php?cod_amm=agid\", \"name\": \"Agenzia per l'Italia Digitale\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "RNDT - Repertorio Nazionale dei Dati Territoriali - Servizio di ricerca"
+          },
+          {
+            "key": "spatial",
+            "value": "{\"type\": \"Polygon\", \"coordinates\": [[[11.24, 46.695], [11.136, 46.695], [11.136, 46.617], [11.24, 46.617], [11.24, 46.695]]]}"
+          },
+          {
+            "key": "spatial_uri",
+            "value": "https://geodati.gov.it/resource/spatial/c_f132:Common:Environment"
+          },
+          {
+            "key": "uri",
+            "value": "https://geodati.gov.it/resource/id/c_f132:Common:Environment"
+          },
+          {
+            "key": "theme",
+            "value": "[\"GOVE\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "09ab8503-d92c-4772-8dfd-2c875d6149af"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "6d9e8d13-fa0a-4bb4-b209-023cf3f58559"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "GeoDati-RNDT"
+          },
+          {
+            "key": "identifier",
+            "value": "c_f132:Common:Environment"
+          },
+          {
+            "key": "access_rights",
+            "value": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"GOVE\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "Comune di Merano"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "c_f132"
+          },
+          {
+            "key": "issued",
+            "value": "2000-01-01"
+          },
+          {
+            "key": "modified",
+            "value": "2022-02-07"
+          },
+          {
+            "key": "language",
+            "value": "ITA"
+          },
+          {
+            "key": "holder_name",
+            "value": "Comune di Merano"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "c_f132"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"uri\": \"http://data.europa.eu/eli/reg/2010/1089\", \"identifier\": \"None\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Governo e settore pubblico",
+            "display_name": "Governo",
+            "id": "6f96c1fc-1107-4162-bc0d-f3dbdbd057c4",
+            "image_display_url": "",
+            "name": "governo",
+            "title": "Governo"
+          }
+        ],
+        "resources": [
+          {
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2026-06-28T00:10:16.544671",
+            "description": null,
+            "distribution_format": "",
+            "distribution_ref": "https://geodati.gov.it/resource/distribution/c_f132:Common:Environment/WMS_SRVC-1635",
+            "format": "",
+            "hash": "",
+            "id": "2ec49ad9-a2ef-458e-9ba4-a4e4b22e7d27",
+            "last_modified": null,
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-06-28T00:10:16.515625",
+            "mimetype": null,
+            "mimetype_inner": null,
+            "name": "N/A",
+            "package_id": "c9286fd4-4598-4df8-9417-4cd04676a86d",
+            "position": 0,
+            "resource_type": null,
+            "size": null,
+            "state": "active",
+            "uri": "https://geodati.gov.it/resource/distribution/c_f132:Common:Environment/WMS_SRVC-1635",
+            "url": "",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "ambiente",
+            "id": "5a2dbed1-8dc6-4d3b-a4a6-8f9d8b3715ee",
+            "name": "ambiente",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "national-legislation",
+            "id": "7fe99e76-ab79-4aa2-a5cf-e8f887b725be",
+            "name": "national-legislation",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "regionale",
+            "id": "0fee2078-5814-43e7-a132-af7ce678ba68",
+            "name": "regionale",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "servizi-di-pubblica-utilita-e-servizi-amministrativi",
+            "id": "aec9d386-cf7a-4fad-92d2-1db2dc3843eb",
+            "name": "servizi-di-pubblica-utilita-e-servizi-amministrativi",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "societa",
+            "id": "b4354f2d-0904-4b39-92c0-dc7bf048b987",
+            "name": "societa",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "GeoDati - RNDT",
+        "holder_identifier": "agid",
+        "issued": "2000-01-01"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "0a66346b-3f83-4aef-ba46-2d431d4239be",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2026-05-23T22:51:37.018183",
+        "metadata_modified": "2026-06-28T00:15:40.868742",
+        "name": "ambiente-3",
+        "notes": "Serie relativa ai dati geografici afferenti le tematiche ambientali, di igiene e sanità pubblica",
+        "num_resources": 1,
+        "num_tags": 3,
+        "organization": {
+          "id": "9eeff220-80c1-4da9-a7ef-fd2af6e2fb78",
+          "name": "geodati-gov-it-rndt",
+          "title": "GeoDati - RNDT",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T18:47:26.076098",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "9eeff220-80c1-4da9-a7ef-fd2af6e2fb78",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": "sit@unione.labassaromagna.it"
+          },
+          {
+            "key": "contact_name",
+            "value": "Unione dei Comuni della Bassa Romagna"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://geodati.gov.it/resource/pointOfContact/uncobaro:2020-12-15T160257-1"
+          },
+          {
+            "key": "guid",
+            "value": "https://geodati.gov.it/resource/id/uncobaro:2020-12-15T160257"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://servizigis.regione.emilia-romagna.it/ctwmetadatiRER/metadatoISO.ejb?stato_FileIdentifier=iOrg01iEnP1fileIDuncobaro:2020-12-15T160257"
+          },
+          {
+            "key": "publisher_uri",
+            "value": "https://geodati.gov.it/resource/administration/uncobaro:2020-12-15T160257/publisher"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Il servizio di ricerca del RNDT fornisce l'accesso ai metadati su dati e servizi territoriali delle Pubbliche Amministrazioni italiane. Esso è conforme alle specifiche CSW (ISO Application Profile) di OGC e alle linee guida INSPIRE sui servizi di ricerca"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://geodati.gov.it/"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/ITA"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-26"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"https://indicepa.gov.it/ricerca/n-dettaglioamministrazione.php?cod_amm=agid\", \"name\": \"Agenzia per l'Italia Digitale\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "RNDT - Repertorio Nazionale dei Dati Territoriali - Servizio di ricerca"
+          },
+          {
+            "key": "spatial",
+            "value": "{\"type\": \"Polygon\", \"coordinates\": [[[12.11848775, 44.5977626], [11.74199947, 44.5977626], [11.74199947, 44.3346527], [12.11848775, 44.3346527], [12.11848775, 44.5977626]]]}"
+          },
+          {
+            "key": "spatial_uri",
+            "value": "https://geodati.gov.it/resource/spatial/uncobaro:2020-12-15T160257"
+          },
+          {
+            "key": "uri",
+            "value": "https://geodati.gov.it/resource/id/uncobaro:2020-12-15T160257"
+          },
+          {
+            "key": "theme",
+            "value": "[\"HEAL\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "eaad6c61-8976-4f41-b569-327788a1ecb9"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "6d9e8d13-fa0a-4bb4-b209-023cf3f58559"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "GeoDati-RNDT"
+          },
+          {
+            "key": "identifier",
+            "value": "uncobaro:2020-12-15T160300"
+          },
+          {
+            "key": "access_rights",
+            "value": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"HEAL\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "Unione dei Comuni della Bassa Romagna"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "uncobaro"
+          },
+          {
+            "key": "issued",
+            "value": "2020-12-15"
+          },
+          {
+            "key": "modified",
+            "value": "2020-12-15"
+          },
+          {
+            "key": "language",
+            "value": "ITA"
+          },
+          {
+            "key": "holder_name",
+            "value": "Unione dei Comuni della Bassa Romagna"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "uncobaro"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Salute",
+            "display_name": "Salute",
+            "id": "6493f857-1ce0-48a2-8fac-7ddbc2e8d763",
+            "image_display_url": "",
+            "name": "salute",
+            "title": "Salute"
+          }
+        ],
+        "resources": [
+          {
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2026-06-28T00:15:40.886695",
+            "description": null,
+            "distribution_format": "",
+            "distribution_ref": "https://geodati.gov.it/resource/distribution/uncobaro:2020-12-15T160257/OP_DATPRO-2117",
+            "format": "",
+            "hash": "",
+            "id": "ab7f3e26-3004-4870-8ea4-27f6ac945bad",
+            "last_modified": null,
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-06-28T00:15:40.873406",
+            "mimetype": null,
+            "mimetype_inner": null,
+            "name": "N/A",
+            "package_id": "0a66346b-3f83-4aef-ba46-2d431d4239be",
+            "position": 0,
+            "resource_type": null,
+            "size": null,
+            "state": "active",
+            "uri": "https://geodati.gov.it/resource/distribution/uncobaro:2020-12-15T160257/OP_DATPRO-2117",
+            "url": "",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "eu",
+            "id": "3b8bccc4-da60-4898-9db4-43256b36ced7",
+            "name": "eu",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "regionale",
+            "id": "0fee2078-5814-43e7-a132-af7ce678ba68",
+            "name": "regionale",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "salute-umana-e-sicurezza",
+            "id": "9f9bd672-2ede-40de-8fc6-be25693cdd0f",
+            "name": "salute-umana-e-sicurezza",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "GeoDati - RNDT",
+        "holder_identifier": "agid",
+        "issued": "2020-12-15"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "6cdec75e-bb8b-41a6-9b37-67ceb9a9c8c1",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-04-30T13:34:55.909349",
+        "metadata_modified": "2026-06-27T20:41:53.914967",
+        "name": "ambiente-rifiuti-1",
+        "notes": "Ubicazione cestini e distributori sacchetti per raccolta deiezioni canine",
+        "num_resources": 1,
+        "num_tags": 2,
+        "organization": {
+          "id": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+          "name": "regione-marche",
+          "title": "Regione Marche",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:42:05.252251",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Rifiuti",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_name",
+            "value": "comune-di-sirolo"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.regione.marche.it/organization/5b366059-03f8-4c81-adb3-1818879e3399"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.regione.marche.it/dataset/50097a2c-d244-44a0-8394-37e9acdeb4f1"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.regione.marche.it/dataset/comune-di-sirolo-ambiente-rifiuti"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Open Data Regione Marche"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.regione.marche.it/#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/DEU"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-25T15:57:44.891056"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Marche\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "GoodPA"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.regione.marche.it/dataset/50097a2c-d244-44a0-8394-37e9acdeb4f1"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "a3e26c15-42d7-4add-bffc-1690354843d8"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "5f24dbed-f7d5-48fb-b152-dbe02423aeff"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Marche"
+          },
+          {
+            "key": "identifier",
+            "value": "c_i758:comune-di-sirolo-ambiente-rifiuti"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "N/A"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "N/A"
+          },
+          {
+            "key": "issued",
+            "value": "2024-02-08T14:02:57.066269"
+          },
+          {
+            "key": "modified",
+            "value": "2021-03-26"
+          },
+          {
+            "key": "language",
+            "value": ""
+          },
+          {
+            "key": "holder_name",
+            "value": "Comune di Sirolo"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "c_i758"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/50097a2c-d244-44a0-8394-37e9acdeb4f1/resource/a5522797-c49d-4ced-ae02-7fbc958d67ec/download/raccoltadeiezioni.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T13:34:55.911087",
+            "description": "Raccolta_deiezioni.csv",
+            "distribution_format": "csv",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/50097a2c-d244-44a0-8394-37e9acdeb4f1/resource/a5522797-c49d-4ced-ae02-7fbc958d67ec",
+            "format": "CSV",
+            "hash": "",
+            "id": "1a5f7e5c-46ed-4d23-b205-2fbe4818488f",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T10:37:59.909588",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "Raccolta_deiezioni.csv",
+            "package_id": "6cdec75e-bb8b-41a6-9b37-67ceb9a9c8c1",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/50097a2c-d244-44a0-8394-37e9acdeb4f1/resource/a5522797-c49d-4ced-ae02-7fbc958d67ec",
+            "url": "https://dati.regione.marche.it/dataset/50097a2c-d244-44a0-8394-37e9acdeb4f1/resource/a5522797-c49d-4ced-ae02-7fbc958d67ec/download/raccoltadeiezioni.csv",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "rifiuti",
+            "id": "54961d3b-4ee0-436d-8e37-ddf6d16c8d8c",
+            "name": "rifiuti",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "tributi-generali",
+            "id": "f23dc791-d8e9-4302-a6c9-985e6a951482",
+            "name": "tributi-generali",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Marche",
+        "holder_identifier": "r_marche",
+        "issued": "2024-02-08T14:02:57.066269"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "e1284f8b-fbae-4b38-9dd4-c2a435e65d9f",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-04-30T15:39:34.075082",
+        "metadata_modified": "2026-06-27T21:33:12.291830",
+        "name": "ambiente-rifiuti-7",
+        "notes": "Ubicazione cestini e distributori sacchetti per raccolta deiezioni canine",
+        "num_resources": 1,
+        "num_tags": 2,
+        "organization": {
+          "id": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+          "name": "regione-marche",
+          "title": "Regione Marche",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:42:05.252251",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Rifiuti",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": "comune.agugliano@emarche.it"
+          },
+          {
+            "key": "contact_name",
+            "value": "comune-di-agugliano"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.regione.marche.it/organization/1214ad41-c549-4ab9-a11b-b15689cc7459"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.regione.marche.it/dataset/f162ebbe-ed6c-456d-b06b-be1d2b5b6365"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.regione.marche.it/dataset/comune-di-agugliano-ambiente-rifiuti"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Open Data Regione Marche"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.regione.marche.it/#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/DEU"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-25T15:57:44.891056"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Marche\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "GoodPA"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.regione.marche.it/dataset/f162ebbe-ed6c-456d-b06b-be1d2b5b6365"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "dfb588df-4c85-405b-b61a-a6bc6c643cc5"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "5f24dbed-f7d5-48fb-b152-dbe02423aeff"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Marche"
+          },
+          {
+            "key": "identifier",
+            "value": "c_a092:comune-di-agugliano-ambiente-rifiuti"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "N/A"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "N/A"
+          },
+          {
+            "key": "issued",
+            "value": "2024-02-08T08:46:09.853278"
+          },
+          {
+            "key": "modified",
+            "value": "2021-03-31"
+          },
+          {
+            "key": "language",
+            "value": ""
+          },
+          {
+            "key": "holder_name",
+            "value": "Comune di Agugliano"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "c_a092"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/f162ebbe-ed6c-456d-b06b-be1d2b5b6365/resource/0af89934-4b16-4ff8-90fd-7ae9ccbe87c0/download/rifiutipoi.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T15:39:34.076833",
+            "description": "rifiuti-poi.csv",
+            "distribution_format": "csv",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/f162ebbe-ed6c-456d-b06b-be1d2b5b6365/resource/0af89934-4b16-4ff8-90fd-7ae9ccbe87c0",
+            "format": "CSV",
+            "hash": "",
+            "id": "14f08841-2115-4d91-abec-62eca11d9f1a",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T11:31:49.416955",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "rifiuti-poi.csv",
+            "package_id": "e1284f8b-fbae-4b38-9dd4-c2a435e65d9f",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/f162ebbe-ed6c-456d-b06b-be1d2b5b6365/resource/0af89934-4b16-4ff8-90fd-7ae9ccbe87c0",
+            "url": "https://dati.regione.marche.it/dataset/f162ebbe-ed6c-456d-b06b-be1d2b5b6365/resource/0af89934-4b16-4ff8-90fd-7ae9ccbe87c0/download/rifiutipoi.csv",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "rifiuti",
+            "id": "54961d3b-4ee0-436d-8e37-ddf6d16c8d8c",
+            "name": "rifiuti",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "tributi-generali",
+            "id": "f23dc791-d8e9-4302-a6c9-985e6a951482",
+            "name": "tributi-generali",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Marche",
+        "holder_identifier": "r_marche",
+        "issued": "2024-02-08T08:46:09.853278"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "107811e6-5e7b-43a5-9abb-31adeb80d56f",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-04-30T15:17:57.587512",
+        "metadata_modified": "2026-06-27T21:25:47.848360",
+        "name": "ambiente-rifiuti-6",
+        "notes": "Comune di Castelfidardo AN. Ubicazione cestini e sacchetti raccolta deiezioni canine",
+        "num_resources": 1,
+        "num_tags": 1,
+        "organization": {
+          "id": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+          "name": "regione-marche",
+          "title": "Regione Marche",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:42:05.252251",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Rifiuti",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": ""
+          },
+          {
+            "key": "contact_name",
+            "value": "comune-di-castelfidardo"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.regione.marche.it/organization/dcb2a115-9ae8-4b62-9eaf-e8da30356250"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.regione.marche.it/dataset/2bba2e9f-a5cc-4811-8fa4-c6e8fa86aa3f"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.regione.marche.it/dataset/comune-di-castelfidardo--ambiente-rifiuti-"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Open Data Regione Marche"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.regione.marche.it/#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/DEU"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-25T15:57:44.891056"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Marche\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "GoodPA"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.regione.marche.it/dataset/2bba2e9f-a5cc-4811-8fa4-c6e8fa86aa3f"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "352b09d4-a501-42e8-ad56-d4e6df4e7729"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "5f24dbed-f7d5-48fb-b152-dbe02423aeff"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Marche"
+          },
+          {
+            "key": "identifier",
+            "value": "c_c100:comune-di-castelfidardo--ambiente-rifiuti-"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "N/A"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "N/A"
+          },
+          {
+            "key": "issued",
+            "value": "2024-02-08T09:14:31.554133"
+          },
+          {
+            "key": "modified",
+            "value": "2023-10-01"
+          },
+          {
+            "key": "language",
+            "value": ""
+          },
+          {
+            "key": "holder_name",
+            "value": "Comune di Castelfidardo"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "c_c100"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://www.comune.castelfidardo.an.it/OpenData/csv/cestini-raccolta-deiezioni.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T15:17:57.589214",
+            "description": "cestini-raccolta-deiezioni.csv",
+            "distribution_format": "csv",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/2bba2e9f-a5cc-4811-8fa4-c6e8fa86aa3f/resource/99d5667a-8e24-4744-98cc-8db26a910b95",
+            "format": "CSV",
+            "hash": "",
+            "id": "1146c63f-8be3-4ae4-b866-25e2b6915edd",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T11:23:24.462901",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "cestini-raccolta-deiezioni.csv",
+            "package_id": "107811e6-5e7b-43a5-9abb-31adeb80d56f",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/2bba2e9f-a5cc-4811-8fa4-c6e8fa86aa3f/resource/99d5667a-8e24-4744-98cc-8db26a910b95",
+            "url": "https://www.comune.castelfidardo.an.it/OpenData/csv/cestini-raccolta-deiezioni.csv",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "rifiuti",
+            "id": "54961d3b-4ee0-436d-8e37-ddf6d16c8d8c",
+            "name": "rifiuti",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Marche",
+        "holder_identifier": "r_marche",
+        "issued": "2024-02-08T09:14:31.554133"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "ad947016-df1f-4460-8a83-d11fbb2d44d0",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-04-30T14:18:27.223575",
+        "metadata_modified": "2026-06-27T21:00:18.312106",
+        "name": "ambiente-rifiuti-4",
+        "notes": "Ubicazione cestini e distributori sacchetti per raccolta deiezioni canine",
+        "num_resources": 1,
+        "num_tags": 2,
+        "organization": {
+          "id": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+          "name": "regione-marche",
+          "title": "Regione Marche",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:42:05.252251",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Rifiuti",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": "comune.numana@emarche.it"
+          },
+          {
+            "key": "contact_name",
+            "value": "comune-di-numana"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.regione.marche.it/organization/0b440cd0-defe-4050-81ba-1e82b86325a5"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.regione.marche.it/dataset/b5b87819-5b54-42f4-96c4-91c9f2e0ba51"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.regione.marche.it/dataset/comune-di-numana-ambiente-rifiuti"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Open Data Regione Marche"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.regione.marche.it/#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/DEU"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-25T15:57:44.891056"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Marche\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "GoodPA"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.regione.marche.it/dataset/b5b87819-5b54-42f4-96c4-91c9f2e0ba51"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "da4e3f58-4246-4c46-9fc2-a785533ada7a"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "5f24dbed-f7d5-48fb-b152-dbe02423aeff"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Marche"
+          },
+          {
+            "key": "identifier",
+            "value": "c_f978:comune-di-numana-ambiente-rifiuti"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "N/A"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "N/A"
+          },
+          {
+            "key": "issued",
+            "value": "2024-02-08T11:42:45.450240"
+          },
+          {
+            "key": "modified",
+            "value": "2023-03-14"
+          },
+          {
+            "key": "language",
+            "value": ""
+          },
+          {
+            "key": "holder_name",
+            "value": "Comune di Numana"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "c_f978"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://opendata.comunenumana.com/files/csv/Raccolta_deiezioni.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T14:18:27.225315",
+            "description": "Raccolta_deiezioni.csv",
+            "distribution_format": "csv",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/b5b87819-5b54-42f4-96c4-91c9f2e0ba51/resource/41ccc44c-33f2-40d0-9d20-09c8707c00e2",
+            "format": "CSV",
+            "hash": "",
+            "id": "447d52ff-7eaf-4bd6-bb84-3c8de3bb3761",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T10:57:23.973562",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "Raccolta_deiezioni.csv",
+            "package_id": "ad947016-df1f-4460-8a83-d11fbb2d44d0",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/b5b87819-5b54-42f4-96c4-91c9f2e0ba51/resource/41ccc44c-33f2-40d0-9d20-09c8707c00e2",
+            "url": "https://opendata.comunenumana.com/files/csv/Raccolta_deiezioni.csv",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "rifiuti",
+            "id": "54961d3b-4ee0-436d-8e37-ddf6d16c8d8c",
+            "name": "rifiuti",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "tributi-generali",
+            "id": "f23dc791-d8e9-4302-a6c9-985e6a951482",
+            "name": "tributi-generali",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Marche",
+        "holder_identifier": "r_marche",
+        "issued": "2024-02-08T11:42:45.450240"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "47eb0fb9-31b2-4736-bfa9-91f441007f07",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-04-30T13:58:43.716380",
+        "metadata_modified": "2026-06-27T20:53:04.824004",
+        "name": "ambiente-rifiuti-2",
+        "notes": "Ubicazione cestini e distributori sacchetti per raccolta deiezioni canine",
+        "num_resources": 1,
+        "num_tags": 2,
+        "organization": {
+          "id": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+          "name": "regione-marche",
+          "title": "Regione Marche",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:42:05.252251",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Rifiuti",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": "comune.polverigi@pec.it"
+          },
+          {
+            "key": "contact_name",
+            "value": "comune-di-polverigi"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.regione.marche.it/organization/51003c37-e7e7-4088-8493-aed225f8a9bf"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.regione.marche.it/dataset/481d9583-ca08-4b0d-86cd-dcadd103af1d"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.regione.marche.it/dataset/comune-di-polverigi-ambiente-rifiuti"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Open Data Regione Marche"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.regione.marche.it/#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/DEU"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-25T15:57:44.891056"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Marche\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "GoodPA"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.regione.marche.it/dataset/481d9583-ca08-4b0d-86cd-dcadd103af1d"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "d191ab25-9ed0-4462-aa63-4b3ca1654173"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "5f24dbed-f7d5-48fb-b152-dbe02423aeff"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Marche"
+          },
+          {
+            "key": "identifier",
+            "value": "c_g803:comune-di-polverigi-ambiente-rifiuti"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "N/A"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "N/A"
+          },
+          {
+            "key": "issued",
+            "value": "2024-02-08T12:56:50.140750"
+          },
+          {
+            "key": "modified",
+            "value": "2021-03-31"
+          },
+          {
+            "key": "language",
+            "value": ""
+          },
+          {
+            "key": "holder_name",
+            "value": "Comune di Polverigi"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "c_g803"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/481d9583-ca08-4b0d-86cd-dcadd103af1d/resource/6368210d-9df8-4d6e-931e-cfeb90b7bb3f/download/rifiutipoi.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T13:58:43.717214",
+            "description": "rifiuti-poi.csv",
+            "distribution_format": "csv",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/481d9583-ca08-4b0d-86cd-dcadd103af1d/resource/6368210d-9df8-4d6e-931e-cfeb90b7bb3f",
+            "format": "CSV",
+            "hash": "",
+            "id": "b60d1816-33f6-4fc3-9dbd-7fe3eecc0ac7",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T10:49:51.935712",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "rifiuti-poi.csv",
+            "package_id": "47eb0fb9-31b2-4736-bfa9-91f441007f07",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/481d9583-ca08-4b0d-86cd-dcadd103af1d/resource/6368210d-9df8-4d6e-931e-cfeb90b7bb3f",
+            "url": "https://dati.regione.marche.it/dataset/481d9583-ca08-4b0d-86cd-dcadd103af1d/resource/6368210d-9df8-4d6e-931e-cfeb90b7bb3f/download/rifiutipoi.csv",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "rifiuti",
+            "id": "54961d3b-4ee0-436d-8e37-ddf6d16c8d8c",
+            "name": "rifiuti",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "tributi-generali",
+            "id": "f23dc791-d8e9-4302-a6c9-985e6a951482",
+            "name": "tributi-generali",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Marche",
+        "holder_identifier": "r_marche",
+        "issued": "2024-02-08T12:56:50.140750"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "c77e70e1-9b13-4485-82c5-29c62f676d31",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-04-30T13:19:57.193448",
+        "metadata_modified": "2026-06-27T20:35:32.195986",
+        "name": "ambiente-rifiuti",
+        "notes": "Ubicazione cestini e distributori sacchetti per raccolta deiezioni canine",
+        "num_resources": 1,
+        "num_tags": 2,
+        "organization": {
+          "id": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+          "name": "regione-marche",
+          "title": "Regione Marche",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:42:05.252251",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Rifiuti",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": "protocollo@unionecastelli.it"
+          },
+          {
+            "key": "contact_name",
+            "value": "unione-terra-dei-castelli"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.regione.marche.it/organization/2d510a86-7999-44a8-b5c4-2e11f860c444"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.regione.marche.it/dataset/ae07fbfa-4f04-44bf-b38c-66f7d4a8fb2e"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.regione.marche.it/dataset/unione-terra-dei-castelli-ambiente-rifiuti"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Open Data Regione Marche"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.regione.marche.it/#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/DEU"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-25T15:57:44.891056"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Marche\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "GoodPA"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.regione.marche.it/dataset/ae07fbfa-4f04-44bf-b38c-66f7d4a8fb2e"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "4b7a70c7-dfd0-4bd5-a077-b6a1903e0eaa"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "5f24dbed-f7d5-48fb-b152-dbe02423aeff"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Marche"
+          },
+          {
+            "key": "identifier",
+            "value": "udca_:unione-terra-dei-castelli-ambiente-rifiuti"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "N/A"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "N/A"
+          },
+          {
+            "key": "issued",
+            "value": "2024-02-19T21:32:03.857897"
+          },
+          {
+            "key": "modified",
+            "value": "2021-03-31"
+          },
+          {
+            "key": "language",
+            "value": ""
+          },
+          {
+            "key": "holder_name",
+            "value": "Unione Terra dei Castelli"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "udca_"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/ae07fbfa-4f04-44bf-b38c-66f7d4a8fb2e/resource/5a45e9d6-9453-475d-85e8-25b46a7d3b09/download/rifiutipoi.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T13:19:57.194239",
+            "description": "rifiuti-poi.csv",
+            "distribution_format": "csv",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/ae07fbfa-4f04-44bf-b38c-66f7d4a8fb2e/resource/5a45e9d6-9453-475d-85e8-25b46a7d3b09",
+            "format": "CSV",
+            "hash": "",
+            "id": "67554e57-fb0a-4a71-8a23-9a0b38b2f788",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T10:31:09.563140",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "rifiuti-poi.csv",
+            "package_id": "c77e70e1-9b13-4485-82c5-29c62f676d31",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/ae07fbfa-4f04-44bf-b38c-66f7d4a8fb2e/resource/5a45e9d6-9453-475d-85e8-25b46a7d3b09",
+            "url": "https://dati.regione.marche.it/dataset/ae07fbfa-4f04-44bf-b38c-66f7d4a8fb2e/resource/5a45e9d6-9453-475d-85e8-25b46a7d3b09/download/rifiutipoi.csv",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "rifiuti",
+            "id": "54961d3b-4ee0-436d-8e37-ddf6d16c8d8c",
+            "name": "rifiuti",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "tributi-generali",
+            "id": "f23dc791-d8e9-4302-a6c9-985e6a951482",
+            "name": "tributi-generali",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Marche",
+        "holder_identifier": "r_marche",
+        "issued": "2024-02-19T21:32:03.857897"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "b563f980-13a6-4ca2-9ec7-4d7d9039d8b0",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-04-30T14:56:40.886106",
+        "metadata_modified": "2026-06-27T21:16:54.132980",
+        "name": "ambiente-rifiuti-5",
+        "notes": "Ubicazione cestini e distributori sacchetti per raccolta deiezioni canine",
+        "num_resources": 2,
+        "num_tags": 2,
+        "organization": {
+          "id": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+          "name": "regione-marche",
+          "title": "Regione Marche",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:42:05.252251",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Rifiuti",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": "comune.falconara.protocollo@emarche.it"
+          },
+          {
+            "key": "contact_name",
+            "value": "comune-di-falconara-marittima"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.regione.marche.it/organization/6ff262e4-745d-4a77-90cc-ee6a63c62c41"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.regione.marche.it/dataset/3d4179ff-c5e9-4c60-9728-bc84dad9435d"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.regione.marche.it/dataset/comune-di-falconara-marittima-ambiente-rifiuti"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Open Data Regione Marche"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.regione.marche.it/#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/DEU"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-25T15:57:44.891056"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Marche\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "GoodPA"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.regione.marche.it/dataset/3d4179ff-c5e9-4c60-9728-bc84dad9435d"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "d4dee37d-7a6b-4937-b46a-7c29888da088"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "5f24dbed-f7d5-48fb-b152-dbe02423aeff"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Marche"
+          },
+          {
+            "key": "identifier",
+            "value": "c_d472:comune-di-falconara-marittima-ambiente-rifiuti"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "N/A"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "N/A"
+          },
+          {
+            "key": "issued",
+            "value": "2024-02-08T09:50:34.733811"
+          },
+          {
+            "key": "modified",
+            "value": "2021-10-03"
+          },
+          {
+            "key": "language",
+            "value": ""
+          },
+          {
+            "key": "holder_name",
+            "value": "Comune di Falconara Marittima"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "c_d472"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/3d4179ff-c5e9-4c60-9728-bc84dad9435d/resource/09ccc2de-bf4f-4ca2-b81a-c2de2e851e35/download/raccoltarifiuti2018.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T14:56:40.887880",
+            "description": "raccolta-rifiuti-2018.csv",
+            "distribution_format": "csv",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/3d4179ff-c5e9-4c60-9728-bc84dad9435d/resource/09ccc2de-bf4f-4ca2-b81a-c2de2e851e35",
+            "format": "CSV",
+            "hash": "",
+            "id": "464e65d5-ae87-4451-b45f-e53ed33a8b2f",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T11:14:09.374960",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "raccolta-rifiuti-2018.csv",
+            "package_id": "b563f980-13a6-4ca2-9ec7-4d7d9039d8b0",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/3d4179ff-c5e9-4c60-9728-bc84dad9435d/resource/09ccc2de-bf4f-4ca2-b81a-c2de2e851e35",
+            "url": "https://dati.regione.marche.it/dataset/3d4179ff-c5e9-4c60-9728-bc84dad9435d/resource/09ccc2de-bf4f-4ca2-b81a-c2de2e851e35/download/raccoltarifiuti2018.csv",
+            "url_type": null
+          },
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/3d4179ff-c5e9-4c60-9728-bc84dad9435d/resource/179e58c5-0b78-46c0-964b-1d17cb30cc89/download/raccoltarifiuti2019.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T14:56:40.887883",
+            "description": "raccolta-rifiuti-2019.csv",
+            "distribution_format": "csv",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/3d4179ff-c5e9-4c60-9728-bc84dad9435d/resource/179e58c5-0b78-46c0-964b-1d17cb30cc89",
+            "format": "CSV",
+            "hash": "",
+            "id": "427df27d-0bce-4cbc-b942-8d7f98b769da",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T11:14:09.375118",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "raccolta-rifiuti-2019.csv",
+            "package_id": "b563f980-13a6-4ca2-9ec7-4d7d9039d8b0",
+            "position": 1,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/3d4179ff-c5e9-4c60-9728-bc84dad9435d/resource/179e58c5-0b78-46c0-964b-1d17cb30cc89",
+            "url": "https://dati.regione.marche.it/dataset/3d4179ff-c5e9-4c60-9728-bc84dad9435d/resource/179e58c5-0b78-46c0-964b-1d17cb30cc89/download/raccoltarifiuti2019.csv",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "rifiuti",
+            "id": "54961d3b-4ee0-436d-8e37-ddf6d16c8d8c",
+            "name": "rifiuti",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "tributi-generali",
+            "id": "f23dc791-d8e9-4302-a6c9-985e6a951482",
+            "name": "tributi-generali",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Marche",
+        "holder_identifier": "r_marche",
+        "issued": "2024-02-08T09:50:34.733811"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "8d547214-b6b3-480f-a094-c91bdf555e21",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-04-30T14:16:14.300260",
+        "metadata_modified": "2026-06-27T20:59:24.250529",
+        "name": "ambiente-rifiuti-3",
+        "notes": "Ubicazione cestini e distributori sacchetti per raccolta deiezioni canine",
+        "num_resources": 1,
+        "num_tags": 2,
+        "organization": {
+          "id": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+          "name": "regione-marche",
+          "title": "Regione Marche",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:42:05.252251",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Rifiuti",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": "comune.osimo@emarche.it"
+          },
+          {
+            "key": "contact_name",
+            "value": "comune-di-osimo"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.regione.marche.it/organization/5fe7ab13-544f-4a5d-bb41-346a0bcdd9c7"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.regione.marche.it/dataset/e6b2f384-c468-4c8a-804c-a55d7b20ed75"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.regione.marche.it/dataset/comune-di-osimo-ambiente-rifiuti"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Open Data Regione Marche"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.regione.marche.it/#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/DEU"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-25T15:57:44.891056"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Marche\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "GoodPA"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.regione.marche.it/dataset/e6b2f384-c468-4c8a-804c-a55d7b20ed75"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "a6db7f32-f5ab-4a40-aeff-23490bf5bf2a"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "5f24dbed-f7d5-48fb-b152-dbe02423aeff"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Marche"
+          },
+          {
+            "key": "identifier",
+            "value": "c_g157:comune-di-osimo-ambiente-rifiuti"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "N/A"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "N/A"
+          },
+          {
+            "key": "issued",
+            "value": "2024-02-08T11:45:20.305939"
+          },
+          {
+            "key": "modified",
+            "value": "2021-04-19"
+          },
+          {
+            "key": "language",
+            "value": ""
+          },
+          {
+            "key": "holder_name",
+            "value": "Comune di Osimo"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "c_g157"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/e6b2f384-c468-4c8a-804c-a55d7b20ed75/resource/2e5e8b53-a9ac-440e-9755-1efd269f9255/download/a61.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T14:16:14.302018",
+            "description": "A_6_1.csv",
+            "distribution_format": "csv",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/e6b2f384-c468-4c8a-804c-a55d7b20ed75/resource/2e5e8b53-a9ac-440e-9755-1efd269f9255",
+            "format": "CSV",
+            "hash": "",
+            "id": "e3d15fbf-b98a-4690-90eb-19db54bb965b",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T10:56:28.663722",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "A_6_1.csv",
+            "package_id": "8d547214-b6b3-480f-a094-c91bdf555e21",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/e6b2f384-c468-4c8a-804c-a55d7b20ed75/resource/2e5e8b53-a9ac-440e-9755-1efd269f9255",
+            "url": "https://dati.regione.marche.it/dataset/e6b2f384-c468-4c8a-804c-a55d7b20ed75/resource/2e5e8b53-a9ac-440e-9755-1efd269f9255/download/a61.csv",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "rifiuti",
+            "id": "54961d3b-4ee0-436d-8e37-ddf6d16c8d8c",
+            "name": "rifiuti",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "tributi-generali",
+            "id": "f23dc791-d8e9-4302-a6c9-985e6a951482",
+            "name": "tributi-generali",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Marche",
+        "holder_identifier": "r_marche",
+        "issued": "2024-02-08T11:45:20.305939"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "5995caa9-d579-4c22-8ff9-12749ca1a15e",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-02-13T09:39:11.631023",
+        "metadata_modified": "2026-06-28T07:16:22.677270",
+        "name": "ambiente-sedi-ceas1",
+        "notes": "Individuazione delle sedi CEAS (Centri Educazione alla Sostenibilità)",
+        "num_resources": 4,
+        "num_tags": 8,
+        "organization": {
+          "id": "c25963f5-2065-4819-9072-35a021ed3d11",
+          "name": "regione-emilia-romagna",
+          "title": "Regione Emilia Romagna",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:35:32.089864",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "c25963f5-2065-4819-9072-35a021ed3d11",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Sedi CEAS",
+        "type": "dataset",
+        "url": "",
+        "version": "",
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": "pg.unione.labassaromagna.it@legalmail.it"
+          },
+          {
+            "key": "contact_name",
+            "value": "unione-dei-comuni-della-bassa-romagna"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.emilia-romagna.it/organization/9dbc39e3-3b9c-4ede-aafa-0bbc52d7e918"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.emilia-romagna.it/dataset/83b632ae-dfb4-4b09-9770-36668d76f51b"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.emilia-romagna.it/dataset/uncobaro_2024-12-19t173206"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Portale OpenData regionale"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.emilia-romagna.it//#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/FRA"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-27T23:29:32.882964"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Emilia-Romagna\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "CKAN Regione Emilia Romagna"
+          },
+          {
+            "key": "spatial",
+            "value": "{\"type\":\"Polygon\",\"coordinates\":[[[11.742,44.334652],[11.742,44.597763],[12.118487,44.597763],[12.118487,44.334652],[11.742,44.334652]]]}"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.emilia-romagna.it/dataset/83b632ae-dfb4-4b09-9770-36668d76f51b"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "b43a166e-a4e0-46ac-b85e-8ba0e1960a36"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "2698497e-2ea5-4343-a24c-150b5cbf37aa"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Emilia-Romagna"
+          },
+          {
+            "key": "identifier",
+            "value": "uncobaro_2024-12-19t173206"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "Unione dei Comuni della Bassa Romagna"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "n.d."
+          },
+          {
+            "key": "issued",
+            "value": "2025-01-02T09:06:00.633223"
+          },
+          {
+            "key": "modified",
+            "value": "2017-11-30"
+          },
+          {
+            "key": "language",
+            "value": "ita"
+          },
+          {
+            "key": "holder_name",
+            "value": "Unione dei Comuni della Bassa Romagna"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "uncobaro"
+          },
+          {
+            "key": "frequency",
+            "value": "OTHER"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"N/A\", \"title\": {\"es\": \"\", \"en\": \"\", \"de\": \"\", \"fr\": \"\", \"it\": \"\"}, \"description\": {\"es\": \"\", \"it\": \"\", \"fr\": \"\", \"de\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://opd.labassaromagna.it/ucbr/kml/amb_sediceas.kml",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-02-13T09:39:11.632132",
+            "description": "access point",
+            "distribution_format": "XML",
+            "distribution_ref": "https://dati.emilia-romagna.it/dataset/83b632ae-dfb4-4b09-9770-36668d76f51b/resource/b2e929c7-72ab-4861-82df-06c4957a2c43",
+            "format": "XML",
+            "hash": "",
+            "id": "1f83cb0e-4316-4a31-95c8-d475d3bdcd67",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2025-02-13T10:34:28.366158",
+            "mimetype": "application/vnd.google-earth.kml+xml",
+            "mimetype_inner": null,
+            "name": "n.d.",
+            "package_id": "5995caa9-d579-4c22-8ff9-12749ca1a15e",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.emilia-romagna.it/dataset/83b632ae-dfb4-4b09-9770-36668d76f51b/resource/b2e929c7-72ab-4861-82df-06c4957a2c43",
+            "url": "https://opd.labassaromagna.it/ucbr/kml/amb_sediceas.kml",
+            "url_type": null
+          },
+          {
+            "access_url": "https://opd.labassaromagna.it/ucbr/json/amb_sediceas.json",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-02-13T09:39:11.632133",
+            "description": "access point",
+            "distribution_format": "XML",
+            "distribution_ref": "https://dati.emilia-romagna.it/dataset/83b632ae-dfb4-4b09-9770-36668d76f51b/resource/919d1c49-aad6-46b8-87a3-6229e4a7a1cd",
+            "format": "XML",
+            "hash": "",
+            "id": "7fdf5a76-ad36-482d-8ed9-b8da7a19df76",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2025-02-13T10:34:28.366398",
+            "mimetype": "application/json",
+            "mimetype_inner": null,
+            "name": "n.d.",
+            "package_id": "5995caa9-d579-4c22-8ff9-12749ca1a15e",
+            "position": 1,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.emilia-romagna.it/dataset/83b632ae-dfb4-4b09-9770-36668d76f51b/resource/919d1c49-aad6-46b8-87a3-6229e4a7a1cd",
+            "url": "https://opd.labassaromagna.it/ucbr/json/amb_sediceas.json",
+            "url_type": null
+          },
+          {
+            "access_url": "https://mapservice.labassaromagna.it/geoserver/ambiente/wms?service=WMS&version=1.3.0&request=getCapabilities",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-02-13T09:39:11.632126",
+            "description": "access point",
+            "distribution_format": "MAP_SRVC",
+            "distribution_ref": "https://dati.emilia-romagna.it/dataset/83b632ae-dfb4-4b09-9770-36668d76f51b/resource/6acdcc8c-feb2-4ad9-bfd3-2502c5faefc4",
+            "format": "MAP_SRVC",
+            "hash": "",
+            "id": "8d652b6f-b70f-4686-acc0-d76669efa058",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2025-02-13T10:34:28.366330",
+            "mimetype": null,
+            "mimetype_inner": null,
+            "name": "amb_sediceas",
+            "package_id": "5995caa9-d579-4c22-8ff9-12749ca1a15e",
+            "position": 2,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.emilia-romagna.it/dataset/83b632ae-dfb4-4b09-9770-36668d76f51b/resource/6acdcc8c-feb2-4ad9-bfd3-2502c5faefc4",
+            "url": "https://mapservice.labassaromagna.it/geoserver/ambiente/wms?service=WMS&version=1.3.0&request=getCapabilities",
+            "url_type": null
+          },
+          {
+            "access_url": "https://mapservice.labassaromagna.it/geoserver/ambiente/wfs?service=wfs&version=2.0.0&request=GetCapabilities",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-02-13T09:39:11.632130",
+            "description": "access point",
+            "distribution_format": "MAP_SRVC",
+            "distribution_ref": "https://dati.emilia-romagna.it/dataset/83b632ae-dfb4-4b09-9770-36668d76f51b/resource/022ed314-32e9-42e9-b140-061ccbe37629",
+            "format": "MAP_SRVC",
+            "hash": "",
+            "id": "bdec0052-ed41-4ed7-a726-db0fe4ef4c1e",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2025-02-13T10:34:28.366258",
+            "mimetype": null,
+            "mimetype_inner": null,
+            "name": "ambiente:amb_sediceas",
+            "package_id": "5995caa9-d579-4c22-8ff9-12749ca1a15e",
+            "position": 3,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.emilia-romagna.it/dataset/83b632ae-dfb4-4b09-9770-36668d76f51b/resource/022ed314-32e9-42e9-b140-061ccbe37629",
+            "url": "https://mapservice.labassaromagna.it/geoserver/ambiente/wfs?service=wfs&version=2.0.0&request=GetCapabilities",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "ambiente",
+            "id": "5a2dbed1-8dc6-4d3b-a4a6-8f9d8b3715ee",
+            "name": "ambiente",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "ambiente--in-generale",
+            "id": "5707d871-a9b1-4ab1-998f-53c5f6a64926",
+            "name": "ambiente--in-generale",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "aree-protette",
+            "id": "1f38fbc4-c055-43ed-939c-51cd87b13ffc",
+            "name": "aree-protette",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "eu",
+            "id": "3b8bccc4-da60-4898-9db4-43256b36ced7",
+            "name": "eu",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "open-data",
+            "id": "4705865b-6371-45f0-b888-e29a6e16e855",
+            "name": "open-data",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "protezione-delle-aree-naturali",
+            "id": "81a22472-c035-4b61-b36e-9d08db32d79c",
+            "name": "protezione-delle-aree-naturali",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "regionale",
+            "id": "0fee2078-5814-43e7-a132-af7ce678ba68",
+            "name": "regionale",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "siti-protetti",
+            "id": "8d444790-5ea2-4221-a8da-46abf830fb23",
+            "name": "siti-protetti",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Emilia Romagna",
+        "holder_identifier": "r_emiro",
+        "issued": "2025-01-02T09:06:00.633223"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "9289b2f9-eba3-42a7-8276-36b9c510f4ed",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-02-13T09:34:55.619769",
+        "metadata_modified": "2026-06-28T07:14:44.056208",
+        "name": "ambiente-rete-natura1",
+        "notes": "Individuazione delle aree rientranti nella Rete Natura",
+        "num_resources": 4,
+        "num_tags": 8,
+        "organization": {
+          "id": "c25963f5-2065-4819-9072-35a021ed3d11",
+          "name": "regione-emilia-romagna",
+          "title": "Regione Emilia Romagna",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:35:32.089864",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "c25963f5-2065-4819-9072-35a021ed3d11",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Rete natura",
+        "type": "dataset",
+        "url": "",
+        "version": "",
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": "pg.unione.labassaromagna.it@legalmail.it"
+          },
+          {
+            "key": "contact_name",
+            "value": "unione-dei-comuni-della-bassa-romagna"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.emilia-romagna.it/organization/9dbc39e3-3b9c-4ede-aafa-0bbc52d7e918"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.emilia-romagna.it/dataset/ed725364-e8db-4b7f-8aff-f894d0729ad7"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.emilia-romagna.it/dataset/uncobaro_2024-12-19t173127"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Portale OpenData regionale"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.emilia-romagna.it//#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/FRA"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-27T23:29:32.882964"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Emilia-Romagna\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "CKAN Regione Emilia Romagna"
+          },
+          {
+            "key": "spatial",
+            "value": "{\"type\":\"Polygon\",\"coordinates\":[[[11.742,44.334652],[11.742,44.597763],[12.118487,44.597763],[12.118487,44.334652],[11.742,44.334652]]]}"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.emilia-romagna.it/dataset/ed725364-e8db-4b7f-8aff-f894d0729ad7"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "3d2ea4fa-99ea-4ebf-abc4-04523e9cde71"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "2698497e-2ea5-4343-a24c-150b5cbf37aa"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Emilia-Romagna"
+          },
+          {
+            "key": "identifier",
+            "value": "uncobaro_2024-12-19t173127"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "Unione dei Comuni della Bassa Romagna"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "n.d."
+          },
+          {
+            "key": "issued",
+            "value": "2025-01-02T08:50:40.441140"
+          },
+          {
+            "key": "modified",
+            "value": "2017-11-30"
+          },
+          {
+            "key": "language",
+            "value": "ita"
+          },
+          {
+            "key": "holder_name",
+            "value": "Unione dei Comuni della Bassa Romagna"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "uncobaro"
+          },
+          {
+            "key": "frequency",
+            "value": "OTHER"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"N/A\", \"title\": {\"de\": \"\", \"es\": \"\", \"en\": \"\", \"it\": \"\", \"fr\": \"\"}, \"description\": {\"es\": \"\", \"it\": \"\", \"fr\": \"\", \"de\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://mapservice.labassaromagna.it/geoserver/ambiente/wms?service=WMS&version=1.3.0&request=getCapabilities",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-02-13T09:34:55.621787",
+            "description": "access point",
+            "distribution_format": "MAP_SRVC",
+            "distribution_ref": "https://dati.emilia-romagna.it/dataset/ed725364-e8db-4b7f-8aff-f894d0729ad7/resource/c997b5c4-3b0e-4421-9ce1-64c639d5a8d8",
+            "format": "MAP_SRVC",
+            "hash": "",
+            "id": "a07c9eca-fa01-42e5-8ffd-a4b89facb686",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2025-02-13T10:35:13.900089",
+            "mimetype": null,
+            "mimetype_inner": null,
+            "name": "amb_retenatura",
+            "package_id": "9289b2f9-eba3-42a7-8276-36b9c510f4ed",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.emilia-romagna.it/dataset/ed725364-e8db-4b7f-8aff-f894d0729ad7/resource/c997b5c4-3b0e-4421-9ce1-64c639d5a8d8",
+            "url": "https://mapservice.labassaromagna.it/geoserver/ambiente/wms?service=WMS&version=1.3.0&request=getCapabilities",
+            "url_type": null
+          },
+          {
+            "access_url": "https://opd.labassaromagna.it/ucbr/kml/amb_retenatura.kml",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-02-13T09:34:55.621793",
+            "description": "access point",
+            "distribution_format": "XML",
+            "distribution_ref": "https://dati.emilia-romagna.it/dataset/ed725364-e8db-4b7f-8aff-f894d0729ad7/resource/a42163b0-0f58-4670-9fe8-d1b2a73b5964",
+            "format": "XML",
+            "hash": "",
+            "id": "a5676f65-55ff-4201-9e16-933bba743331",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2025-02-13T10:35:13.899915",
+            "mimetype": "application/vnd.google-earth.kml+xml",
+            "mimetype_inner": null,
+            "name": "n.d.",
+            "package_id": "9289b2f9-eba3-42a7-8276-36b9c510f4ed",
+            "position": 1,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.emilia-romagna.it/dataset/ed725364-e8db-4b7f-8aff-f894d0729ad7/resource/a42163b0-0f58-4670-9fe8-d1b2a73b5964",
+            "url": "https://opd.labassaromagna.it/ucbr/kml/amb_retenatura.kml",
+            "url_type": null
+          },
+          {
+            "access_url": "https://opd.labassaromagna.it/ucbr/json/amb_retenatura.json",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-02-13T09:34:55.621790",
+            "description": "access point",
+            "distribution_format": "XML",
+            "distribution_ref": "https://dati.emilia-romagna.it/dataset/ed725364-e8db-4b7f-8aff-f894d0729ad7/resource/827c94e1-d65d-44b0-b134-dd7678e12e42",
+            "format": "XML",
+            "hash": "",
+            "id": "5f988056-7bc1-4a83-8ff8-50ec4b37b3b9",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2025-02-13T10:35:13.900159",
+            "mimetype": "application/json",
+            "mimetype_inner": null,
+            "name": "n.d.",
+            "package_id": "9289b2f9-eba3-42a7-8276-36b9c510f4ed",
+            "position": 2,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.emilia-romagna.it/dataset/ed725364-e8db-4b7f-8aff-f894d0729ad7/resource/827c94e1-d65d-44b0-b134-dd7678e12e42",
+            "url": "https://opd.labassaromagna.it/ucbr/json/amb_retenatura.json",
+            "url_type": null
+          },
+          {
+            "access_url": "https://mapservice.labassaromagna.it/geoserver/ambiente/wfs?service=wfs&version=2.0.0&request=GetCapabilities",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-02-13T09:34:55.621791",
+            "description": "access point",
+            "distribution_format": "MAP_SRVC",
+            "distribution_ref": "https://dati.emilia-romagna.it/dataset/ed725364-e8db-4b7f-8aff-f894d0729ad7/resource/fc594787-f225-4dbb-a768-8ab1635ef40b",
+            "format": "MAP_SRVC",
+            "hash": "",
+            "id": "aaf51950-83ef-404a-bc98-14b2eaa0a0dd",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2025-02-13T10:35:13.900016",
+            "mimetype": null,
+            "mimetype_inner": null,
+            "name": "ambiente:amb_retenatura",
+            "package_id": "9289b2f9-eba3-42a7-8276-36b9c510f4ed",
+            "position": 3,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.emilia-romagna.it/dataset/ed725364-e8db-4b7f-8aff-f894d0729ad7/resource/fc594787-f225-4dbb-a768-8ab1635ef40b",
+            "url": "https://mapservice.labassaromagna.it/geoserver/ambiente/wfs?service=wfs&version=2.0.0&request=GetCapabilities",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "ambiente",
+            "id": "5a2dbed1-8dc6-4d3b-a4a6-8f9d8b3715ee",
+            "name": "ambiente",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "ambiente--in-generale",
+            "id": "5707d871-a9b1-4ab1-998f-53c5f6a64926",
+            "name": "ambiente--in-generale",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "aree-protette",
+            "id": "1f38fbc4-c055-43ed-939c-51cd87b13ffc",
+            "name": "aree-protette",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "eu",
+            "id": "3b8bccc4-da60-4898-9db4-43256b36ced7",
+            "name": "eu",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "open-data",
+            "id": "4705865b-6371-45f0-b888-e29a6e16e855",
+            "name": "open-data",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "protezione-delle-aree-naturali",
+            "id": "81a22472-c035-4b61-b36e-9d08db32d79c",
+            "name": "protezione-delle-aree-naturali",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "regionale",
+            "id": "0fee2078-5814-43e7-a132-af7ce678ba68",
+            "name": "regionale",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "siti-protetti",
+            "id": "8d444790-5ea2-4221-a8da-46abf830fb23",
+            "name": "siti-protetti",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Emilia Romagna",
+        "holder_identifier": "r_emiro",
+        "issued": "2025-01-02T08:50:40.441140"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "aba8d8ab-7766-4313-814e-1c4cf958c7de",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-02-13T09:36:13.431101",
+        "metadata_modified": "2026-06-28T07:16:25.684177",
+        "name": "ambiente-aree-protette1",
+        "notes": "Dataset poligonale in cui sono rappresentate le aree protette presenti sul territorio dell'Unione",
+        "num_resources": 4,
+        "num_tags": 8,
+        "organization": {
+          "id": "c25963f5-2065-4819-9072-35a021ed3d11",
+          "name": "regione-emilia-romagna",
+          "title": "Regione Emilia Romagna",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:35:32.089864",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "c25963f5-2065-4819-9072-35a021ed3d11",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Aree protette",
+        "type": "dataset",
+        "url": "",
+        "version": "",
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": "pg.unione.labassaromagna.it@legalmail.it"
+          },
+          {
+            "key": "contact_name",
+            "value": "unione-dei-comuni-della-bassa-romagna"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.emilia-romagna.it/organization/9dbc39e3-3b9c-4ede-aafa-0bbc52d7e918"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.emilia-romagna.it/dataset/656bfa3a-5f3d-422e-93eb-82e58c208b91"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.emilia-romagna.it/dataset/uncobaro_2024-12-19t171945"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Portale OpenData regionale"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.emilia-romagna.it//#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/FRA"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-27T23:29:32.882964"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Emilia-Romagna\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "CKAN Regione Emilia Romagna"
+          },
+          {
+            "key": "spatial",
+            "value": "{\"type\":\"Polygon\",\"coordinates\":[[[11.742,44.334652],[11.742,44.597763],[12.118487,44.597763],[12.118487,44.334652],[11.742,44.334652]]]}"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.emilia-romagna.it/dataset/656bfa3a-5f3d-422e-93eb-82e58c208b91"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "272836c4-b3b2-48a1-8f41-739007f20040"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "2698497e-2ea5-4343-a24c-150b5cbf37aa"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Emilia-Romagna"
+          },
+          {
+            "key": "identifier",
+            "value": "uncobaro_2024-12-19t171945"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "Unione dei Comuni della Bassa Romagna"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "n.d."
+          },
+          {
+            "key": "issued",
+            "value": "2024-12-20T10:40:56.232294"
+          },
+          {
+            "key": "modified",
+            "value": "2017-11-30"
+          },
+          {
+            "key": "language",
+            "value": "ita"
+          },
+          {
+            "key": "holder_name",
+            "value": "Unione dei Comuni della Bassa Romagna"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "uncobaro"
+          },
+          {
+            "key": "frequency",
+            "value": "OTHER"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"N/A\", \"title\": {\"es\": \"\", \"fr\": \"\", \"it\": \"\", \"de\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"fr\": \"\", \"de\": \"\", \"en\": \"\", \"es\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://opd.labassaromagna.it/ucbr/json/amb_areeprotette.json",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-02-13T09:36:13.432218",
+            "description": "access point",
+            "distribution_format": "XML",
+            "distribution_ref": "https://dati.emilia-romagna.it/dataset/656bfa3a-5f3d-422e-93eb-82e58c208b91/resource/e1aa0e10-782f-4425-b873-a18654f7efe4",
+            "format": "XML",
+            "hash": "",
+            "id": "c2c970d6-b95d-4e46-b9d7-46fdfe8143bf",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2025-02-13T10:36:26.772805",
+            "mimetype": "application/json",
+            "mimetype_inner": null,
+            "name": "n.d.",
+            "package_id": "aba8d8ab-7766-4313-814e-1c4cf958c7de",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.emilia-romagna.it/dataset/656bfa3a-5f3d-422e-93eb-82e58c208b91/resource/e1aa0e10-782f-4425-b873-a18654f7efe4",
+            "url": "https://opd.labassaromagna.it/ucbr/json/amb_areeprotette.json",
+            "url_type": null
+          },
+          {
+            "access_url": "https://mapservice.labassaromagna.it/geoserver/ambiente/wms?service=WMS&version=1.3.0&request=getCapabilities",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-02-13T09:36:13.432219",
+            "description": "access point",
+            "distribution_format": "MAP_SRVC",
+            "distribution_ref": "https://dati.emilia-romagna.it/dataset/656bfa3a-5f3d-422e-93eb-82e58c208b91/resource/06af0091-459d-4b93-ac58-e53537b923e2",
+            "format": "MAP_SRVC",
+            "hash": "",
+            "id": "472d0329-1213-4840-ac89-0719af6565d3",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2025-02-13T10:36:26.772873",
+            "mimetype": null,
+            "mimetype_inner": null,
+            "name": "amb_areeprotette",
+            "package_id": "aba8d8ab-7766-4313-814e-1c4cf958c7de",
+            "position": 1,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.emilia-romagna.it/dataset/656bfa3a-5f3d-422e-93eb-82e58c208b91/resource/06af0091-459d-4b93-ac58-e53537b923e2",
+            "url": "https://mapservice.labassaromagna.it/geoserver/ambiente/wms?service=WMS&version=1.3.0&request=getCapabilities",
+            "url_type": null
+          },
+          {
+            "access_url": "https://opd.labassaromagna.it/ucbr/kml/amb_areeprotette.kml",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-02-13T09:36:13.432213",
+            "description": "access point",
+            "distribution_format": "XML",
+            "distribution_ref": "https://dati.emilia-romagna.it/dataset/656bfa3a-5f3d-422e-93eb-82e58c208b91/resource/b8bb2d5a-3d78-4e5a-bb25-cc29f0b2b49c",
+            "format": "XML",
+            "hash": "",
+            "id": "126f4d02-6ab2-4cbc-a727-1cf359dca0df",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2025-02-13T10:36:26.772732",
+            "mimetype": "application/vnd.google-earth.kml+xml",
+            "mimetype_inner": null,
+            "name": "n.d.",
+            "package_id": "aba8d8ab-7766-4313-814e-1c4cf958c7de",
+            "position": 2,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.emilia-romagna.it/dataset/656bfa3a-5f3d-422e-93eb-82e58c208b91/resource/b8bb2d5a-3d78-4e5a-bb25-cc29f0b2b49c",
+            "url": "https://opd.labassaromagna.it/ucbr/kml/amb_areeprotette.kml",
+            "url_type": null
+          },
+          {
+            "access_url": "https://mapservice.labassaromagna.it/geoserver/ambiente/wfs?service=wfs&version=2.0.0&request=GetCapabilities",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-02-13T09:36:13.432216",
+            "description": "access point",
+            "distribution_format": "MAP_SRVC",
+            "distribution_ref": "https://dati.emilia-romagna.it/dataset/656bfa3a-5f3d-422e-93eb-82e58c208b91/resource/e989dec1-7d23-47f0-9364-692bb98f1ecb",
+            "format": "MAP_SRVC",
+            "hash": "",
+            "id": "93ce44ea-1ae4-483f-859c-e755a3a5200f",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2025-02-13T10:36:26.772635",
+            "mimetype": null,
+            "mimetype_inner": null,
+            "name": "ambiente:amb_areeprotette",
+            "package_id": "aba8d8ab-7766-4313-814e-1c4cf958c7de",
+            "position": 3,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.emilia-romagna.it/dataset/656bfa3a-5f3d-422e-93eb-82e58c208b91/resource/e989dec1-7d23-47f0-9364-692bb98f1ecb",
+            "url": "https://mapservice.labassaromagna.it/geoserver/ambiente/wfs?service=wfs&version=2.0.0&request=GetCapabilities",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "ambiente",
+            "id": "5a2dbed1-8dc6-4d3b-a4a6-8f9d8b3715ee",
+            "name": "ambiente",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "ambiente--in-generale",
+            "id": "5707d871-a9b1-4ab1-998f-53c5f6a64926",
+            "name": "ambiente--in-generale",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "aree-protette",
+            "id": "1f38fbc4-c055-43ed-939c-51cd87b13ffc",
+            "name": "aree-protette",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "eu",
+            "id": "3b8bccc4-da60-4898-9db4-43256b36ced7",
+            "name": "eu",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "open-data",
+            "id": "4705865b-6371-45f0-b888-e29a6e16e855",
+            "name": "open-data",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "protezione-delle-aree-naturali",
+            "id": "81a22472-c035-4b61-b36e-9d08db32d79c",
+            "name": "protezione-delle-aree-naturali",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "regionale",
+            "id": "0fee2078-5814-43e7-a132-af7ce678ba68",
+            "name": "regionale",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "siti-protetti",
+            "id": "8d444790-5ea2-4221-a8da-46abf830fb23",
+            "name": "siti-protetti",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Emilia Romagna",
+        "holder_identifier": "r_emiro",
+        "issued": "2024-12-20T10:40:56.232294"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "89856155-3012-4113-b9cc-568d19632664",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2026-05-23T22:06:27.343794",
+        "metadata_modified": "2026-06-27T23:55:49.861233",
+        "name": "ambiente-aree-protette",
+        "notes": "Dataset poligonale in cui sono rappresentate le aree protette presenti sul territorio dell'Unione",
+        "num_resources": 1,
+        "num_tags": 8,
+        "organization": {
+          "id": "9eeff220-80c1-4da9-a7ef-fd2af6e2fb78",
+          "name": "geodati-gov-it-rndt",
+          "title": "GeoDati - RNDT",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T18:47:26.076098",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "9eeff220-80c1-4da9-a7ef-fd2af6e2fb78",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Aree protette",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": "sit@unione.labassaromagna.it"
+          },
+          {
+            "key": "contact_name",
+            "value": "Unione dei Comuni della Bassa Romagna"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://geodati.gov.it/resource/pointOfContact/uncobaro:2024-12-19T171945-1"
+          },
+          {
+            "key": "guid",
+            "value": "https://geodati.gov.it/resource/id/uncobaro:2024-12-19T171945"
+          },
+          {
+            "key": "publisher_uri",
+            "value": "https://geodati.gov.it/resource/administration/uncobaro:2024-12-19T171945/publisher"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Il servizio di ricerca del RNDT fornisce l'accesso ai metadati su dati e servizi territoriali delle Pubbliche Amministrazioni italiane. Esso è conforme alle specifiche CSW (ISO Application Profile) di OGC e alle linee guida INSPIRE sui servizi di ricerca"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://geodati.gov.it/"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/ITA"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-26"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"https://indicepa.gov.it/ricerca/n-dettaglioamministrazione.php?cod_amm=agid\", \"name\": \"Agenzia per l'Italia Digitale\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "RNDT - Repertorio Nazionale dei Dati Territoriali - Servizio di ricerca"
+          },
+          {
+            "key": "spatial",
+            "value": "{\"type\": \"Polygon\", \"coordinates\": [[[12.11848775, 44.5977626], [11.74199947, 44.5977626], [11.74199947, 44.3346527], [12.11848775, 44.3346527], [12.11848775, 44.5977626]]]}"
+          },
+          {
+            "key": "spatial_uri",
+            "value": "https://geodati.gov.it/resource/spatial/uncobaro:2024-12-19T171945"
+          },
+          {
+            "key": "uri",
+            "value": "https://geodati.gov.it/resource/id/uncobaro:2024-12-19T171945"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "88da5a61-36d2-420d-ac67-0cfbf4246d50"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "6d9e8d13-fa0a-4bb4-b209-023cf3f58559"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "GeoDati-RNDT"
+          },
+          {
+            "key": "identifier",
+            "value": "uncobaro:2024-12-19T171945"
+          },
+          {
+            "key": "access_rights",
+            "value": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "Unione dei Comuni della Bassa Romagna"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "uncobaro"
+          },
+          {
+            "key": "issued",
+            "value": "2017-11-30"
+          },
+          {
+            "key": "modified",
+            "value": "2017-11-30"
+          },
+          {
+            "key": "language",
+            "value": "ITA"
+          },
+          {
+            "key": "holder_name",
+            "value": "Unione dei Comuni della Bassa Romagna"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "uncobaro"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2026-06-27T23:55:49.906164",
+            "description": null,
+            "distribution_format": "",
+            "distribution_ref": "https://geodati.gov.it/resource/distribution/uncobaro:2024-12-19T171945/WFS_SRVC-357",
+            "format": "",
+            "hash": "",
+            "id": "e1e7a1f0-2377-4111-9457-36c691de71bb",
+            "last_modified": null,
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-06-27T23:55:49.871515",
+            "mimetype": null,
+            "mimetype_inner": null,
+            "name": "N/A",
+            "package_id": "89856155-3012-4113-b9cc-568d19632664",
+            "position": 0,
+            "resource_type": null,
+            "size": null,
+            "state": "active",
+            "uri": "https://geodati.gov.it/resource/distribution/uncobaro:2024-12-19T171945/WFS_SRVC-357",
+            "url": "",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "ambiente",
+            "id": "5a2dbed1-8dc6-4d3b-a4a6-8f9d8b3715ee",
+            "name": "ambiente",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "ambiente-in-generale",
+            "id": "49c19cad-4817-46e5-8cc8-e357183dfdb1",
+            "name": "ambiente-in-generale",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "aree-protette",
+            "id": "1f38fbc4-c055-43ed-939c-51cd87b13ffc",
+            "name": "aree-protette",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "eu",
+            "id": "3b8bccc4-da60-4898-9db4-43256b36ced7",
+            "name": "eu",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "open-data",
+            "id": "4705865b-6371-45f0-b888-e29a6e16e855",
+            "name": "open-data",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "protezione-delle-aree-naturali",
+            "id": "81a22472-c035-4b61-b36e-9d08db32d79c",
+            "name": "protezione-delle-aree-naturali",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "regionale",
+            "id": "0fee2078-5814-43e7-a132-af7ce678ba68",
+            "name": "regionale",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "siti-protetti",
+            "id": "8d444790-5ea2-4221-a8da-46abf830fb23",
+            "name": "siti-protetti",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "GeoDati - RNDT",
+        "holder_identifier": "agid",
+        "issued": "2017-11-30"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "7d0c859c-f31f-414a-9ed4-e38c55e96100",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-02-13T09:48:41.630730",
+        "metadata_modified": "2026-06-28T07:17:10.019136",
+        "name": "ambiente-e-natura",
+        "notes": "<p> </p>\n<p><span style=\"font-size: 12.16px; line-height: 1.3em; background-color: #ffffff;\">Dato disponibile anche in inglese. I dati relativi a luoghi di potenziale interesse naturalistico per il turista </span><span style=\"font-size: 12.16px; line-height: 1.3em; background-color: #ffffff;\">vengono periodicamente raccolti presso gli EE.LL. referenti del SITur (Sistema Informativo regionale per il </span><span style=\"font-size: 12.16px; line-height: 1.3em; background-color: #ffffff;\">Turista) e trasmessi in Regione.</span></p>\n<p>This survey covers beaches, mountains, urban parks, observatories, parks and natural reserves, and other <span style=\"font-size: 12.16px; line-height: 1.3em; background-color: #ffffff;\">natural attractions of Emilia-Romagna, which can interest tourist.</span></p>\n<p> </p>\n<p> </p>",
+        "num_resources": 1,
+        "num_tags": 4,
+        "organization": {
+          "id": "c25963f5-2065-4819-9072-35a021ed3d11",
+          "name": "regione-emilia-romagna",
+          "title": "Regione Emilia Romagna",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:35:32.089864",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "c25963f5-2065-4819-9072-35a021ed3d11",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente e Natura",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": "PEIAssemblea@postacert.regione.emilia-romagna.it"
+          },
+          {
+            "key": "contact_name",
+            "value": "regione-emilia-romagna"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.emilia-romagna.it/organization/db99e73b-dbd7-4224-9a0f-21e5e2b5896b"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.emilia-romagna.it/dataset/8fd6e501-941f-46b3-829e-0dae31854316"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.emilia-romagna.it/dataset/ambiente-e-natura--fed8b2d5"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Portale OpenData regionale"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.emilia-romagna.it//#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/ITA"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-27T23:29:32.882964"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Emilia-Romagna\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "CKAN Regione Emilia Romagna"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.emilia-romagna.it/dataset/8fd6e501-941f-46b3-829e-0dae31854316"
+          },
+          {
+            "key": "theme",
+            "value": "[\"OP_DATPRO\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "b5c938ff-132a-4527-b22c-a1c4958ac3bc"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "2698497e-2ea5-4343-a24c-150b5cbf37aa"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Emilia-Romagna"
+          },
+          {
+            "key": "identifier",
+            "value": "6ad62578-7ac7-4f54-aa83-1d410f43b340"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"OP_DATPRO\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "N/A"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "N/A"
+          },
+          {
+            "key": "issued",
+            "value": "2016-05-11T13:21:55.799364"
+          },
+          {
+            "key": "modified",
+            "value": "2023-01-30"
+          },
+          {
+            "key": "language",
+            "value": ""
+          },
+          {
+            "key": "holder_name",
+            "value": "Regione Emilia-Romagna"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "r_emiro"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://dati.emilia-romagna.it/dataset/8fd6e501-941f-46b3-829e-0dae31854316/resource/515adc1f-6c46-4917-8148-65a222405728/download/ambienteenatura-2016-09-27.zip",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-02-13T09:48:41.632558",
+            "description": "Regione Emilia-Romagna",
+            "distribution_format": "ZIP",
+            "distribution_ref": "https://dati.emilia-romagna.it/dataset/8fd6e501-941f-46b3-829e-0dae31854316/resource/515adc1f-6c46-4917-8148-65a222405728",
+            "format": "ZIP",
+            "hash": "",
+            "id": "93ba8c06-b71a-4702-a795-01a6f040681f",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-09T13:28:04.566037",
+            "mimetype": "application/zip",
+            "mimetype_inner": null,
+            "name": "Ambiente e natura",
+            "package_id": "7d0c859c-f31f-414a-9ed4-e38c55e96100",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.emilia-romagna.it/dataset/8fd6e501-941f-46b3-829e-0dae31854316/resource/515adc1f-6c46-4917-8148-65a222405728",
+            "url": "https://dati.emilia-romagna.it/dataset/8fd6e501-941f-46b3-829e-0dae31854316/resource/515adc1f-6c46-4917-8148-65a222405728/download/ambienteenatura-2016-09-27.zip",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "ambiente",
+            "id": "5a2dbed1-8dc6-4d3b-a4a6-8f9d8b3715ee",
+            "name": "ambiente",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "natura",
+            "id": "2304b18f-256d-46ba-bfbc-d06efe1fef3c",
+            "name": "natura",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "parchi",
+            "id": "822a6418-0bb9-464e-b991-fb2ffe0e2350",
+            "name": "parchi",
+            "state": "active",
+            "vocabulary_id": null
+          },
+          {
+            "display_name": "turismo",
+            "id": "008df6db-ce8b-44df-9ba4-18ead72c4800",
+            "name": "turismo",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Emilia Romagna",
+        "holder_identifier": "r_emiro",
+        "issued": "2016-05-11T13:21:55.799364"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "44564c6c-0f05-403a-9f72-7c9a450db611",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-04-30T15:17:41.009829",
+        "metadata_modified": "2026-06-27T20:32:37.190986",
+        "name": "ambiente-raccolta-differenziata-7",
+        "notes": "Comune di Castelfidardo AN. Dati raccolta differenziata.",
+        "num_resources": 6,
+        "num_tags": 1,
+        "organization": {
+          "id": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+          "name": "regione-marche",
+          "title": "Regione Marche",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:42:05.252251",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Raccolta differenziata",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": ""
+          },
+          {
+            "key": "contact_name",
+            "value": "comune-di-castelfidardo"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.regione.marche.it/organization/dcb2a115-9ae8-4b62-9eaf-e8da30356250"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.regione.marche.it/dataset/comune-di-castelfidardo--ambiente-raccolta-differenziata"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Open Data Regione Marche"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.regione.marche.it/#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/DEU"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-25T15:57:44.891056"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Marche\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "GoodPA"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "5b5493e7-7ef2-4c46-9007-33b2163fe04e"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "5f24dbed-f7d5-48fb-b152-dbe02423aeff"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Marche"
+          },
+          {
+            "key": "identifier",
+            "value": "c_c100:comune-di-castelfidardo--ambiente-raccolta-differenziata"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "N/A"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "N/A"
+          },
+          {
+            "key": "issued",
+            "value": "2024-02-08T09:13:46.179469"
+          },
+          {
+            "key": "modified",
+            "value": "2023-09-08"
+          },
+          {
+            "key": "language",
+            "value": ""
+          },
+          {
+            "key": "holder_name",
+            "value": "Comune di Castelfidardo"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "c_c100"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/82e4e553-5c25-4708-b6be-0812ba519efe/download/ambiente-raccolta-differenziata-2020.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T15:17:41.010838",
+            "description": "ambiente-raccolta-differenziata-2020.csv",
+            "distribution_format": "CSV",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/82e4e553-5c25-4708-b6be-0812ba519efe",
+            "format": "CSV",
+            "hash": "",
+            "id": "60995b5f-1b0d-45dc-bb97-1722fbfd2248",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T10:27:45.279945",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "ambiente-raccolta-differenziata-2020.csv",
+            "package_id": "44564c6c-0f05-403a-9f72-7c9a450db611",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/82e4e553-5c25-4708-b6be-0812ba519efe",
+            "url": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/82e4e553-5c25-4708-b6be-0812ba519efe/download/ambiente-raccolta-differenziata-2020.csv",
+            "url_type": null
+          },
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/892b50bf-ba7a-4cbe-a893-2fc837b474f1/download/ambiente-raccolta-differenziata-2016.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T15:17:41.010841",
+            "description": "ambiente-raccolta-differenziata-2016.csv",
+            "distribution_format": "CSV",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/892b50bf-ba7a-4cbe-a893-2fc837b474f1",
+            "format": "CSV",
+            "hash": "",
+            "id": "ab7da8ff-2935-42d3-ba2b-0de2b463a7dc",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T10:27:45.280044",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "ambiente-raccolta-differenziata-2016.csv",
+            "package_id": "44564c6c-0f05-403a-9f72-7c9a450db611",
+            "position": 1,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/892b50bf-ba7a-4cbe-a893-2fc837b474f1",
+            "url": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/892b50bf-ba7a-4cbe-a893-2fc837b474f1/download/ambiente-raccolta-differenziata-2016.csv",
+            "url_type": null
+          },
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/8e2039dd-9c9f-4f13-afac-a69aa866444b/download/ambiente-raccolta-differenziata-2019.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T15:17:41.010843",
+            "description": "ambiente-raccolta-differenziata-2019.csv",
+            "distribution_format": "CSV",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/8e2039dd-9c9f-4f13-afac-a69aa866444b",
+            "format": "CSV",
+            "hash": "",
+            "id": "90eea23f-8d2f-4c10-8775-de47e6d329f5",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T10:27:45.280117",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "ambiente-raccolta-differenziata-2019.csv",
+            "package_id": "44564c6c-0f05-403a-9f72-7c9a450db611",
+            "position": 2,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/8e2039dd-9c9f-4f13-afac-a69aa866444b",
+            "url": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/8e2039dd-9c9f-4f13-afac-a69aa866444b/download/ambiente-raccolta-differenziata-2019.csv",
+            "url_type": null
+          },
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/96cd2015-8b30-4857-b339-33b1db3d29c3/download/ambiente-raccolta-differenziata-2018.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T15:17:41.010844",
+            "description": "ambiente-raccolta-differenziata-2018.csv",
+            "distribution_format": "CSV",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/96cd2015-8b30-4857-b339-33b1db3d29c3",
+            "format": "CSV",
+            "hash": "",
+            "id": "039eb2cc-f6b3-4f14-8d56-17296c355815",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T10:27:45.280186",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "ambiente-raccolta-differenziata-2018.csv",
+            "package_id": "44564c6c-0f05-403a-9f72-7c9a450db611",
+            "position": 3,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/96cd2015-8b30-4857-b339-33b1db3d29c3",
+            "url": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/96cd2015-8b30-4857-b339-33b1db3d29c3/download/ambiente-raccolta-differenziata-2018.csv",
+            "url_type": null
+          },
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/ddb3f5b3-9a64-4e22-b8a0-953b5cda5290/download/ambiente-raccolta-differenziata-2017.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T15:17:41.010846",
+            "description": "ambiente-raccolta-differenziata-2017.csv",
+            "distribution_format": "CSV",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/ddb3f5b3-9a64-4e22-b8a0-953b5cda5290",
+            "format": "CSV",
+            "hash": "",
+            "id": "8856e862-6f91-4cb3-9547-aabe55062662",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T10:27:45.280253",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "ambiente-raccolta-differenziata-2017.csv",
+            "package_id": "44564c6c-0f05-403a-9f72-7c9a450db611",
+            "position": 4,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/ddb3f5b3-9a64-4e22-b8a0-953b5cda5290",
+            "url": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/ddb3f5b3-9a64-4e22-b8a0-953b5cda5290/download/ambiente-raccolta-differenziata-2017.csv",
+            "url_type": null
+          },
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/e161e0b8-69e6-4544-a0be-c156edeb2e33/download/ambiente-raccolta-differenziata-2021.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T15:17:41.010847",
+            "description": "ambiente-raccolta-differenziata-2021.csv",
+            "distribution_format": "CSV",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/e161e0b8-69e6-4544-a0be-c156edeb2e33",
+            "format": "CSV",
+            "hash": "",
+            "id": "cf5e7dc7-8142-473b-9fd2-08028043705a",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T10:27:45.280319",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "ambiente-raccolta-differenziata-2021.csv",
+            "package_id": "44564c6c-0f05-403a-9f72-7c9a450db611",
+            "position": 5,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/e161e0b8-69e6-4544-a0be-c156edeb2e33",
+            "url": "https://dati.regione.marche.it/dataset/16d5065e-e23a-49bb-9a16-fce4001d669b/resource/e161e0b8-69e6-4544-a0be-c156edeb2e33/download/ambiente-raccolta-differenziata-2021.csv",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "N_A",
+            "id": "ea9293e4-ed1f-457a-96fd-daaea846bbe7",
+            "name": "N_A",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Marche",
+        "holder_identifier": "r_marche",
+        "issued": "2024-02-08T09:13:46.179469"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "f7471bac-cf80-48e7-b73a-525655bb1a52",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-04-30T13:36:28.699180",
+        "metadata_modified": "2026-06-27T20:42:31.523975",
+        "name": "ambiente-randagismo-animale-1",
+        "notes": "Randagismo animale",
+        "num_resources": 1,
+        "num_tags": 1,
+        "organization": {
+          "id": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+          "name": "regione-marche",
+          "title": "Regione Marche",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:42:05.252251",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Randagismo animale",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_name",
+            "value": "comune-di-sirolo"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.regione.marche.it/organization/5b366059-03f8-4c81-adb3-1818879e3399"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.regione.marche.it/dataset/e9a5cd31-b60a-4bcb-85da-7860e71199c9"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.regione.marche.it/dataset/comune-di-sirolo-ambiente-randagismo-animale"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Open Data Regione Marche"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.regione.marche.it/#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/DEU"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-25T15:57:44.891056"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Marche\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "GoodPA"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.regione.marche.it/dataset/e9a5cd31-b60a-4bcb-85da-7860e71199c9"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "5f1d811d-8589-4132-8c02-d4d31c45906c"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "5f24dbed-f7d5-48fb-b152-dbe02423aeff"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Marche"
+          },
+          {
+            "key": "identifier",
+            "value": "c_i758:comune-di-sirolo-ambiente-randagismo-animale"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "N/A"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "N/A"
+          },
+          {
+            "key": "issued",
+            "value": "2024-02-08T14:03:26.657426"
+          },
+          {
+            "key": "modified",
+            "value": "2021-03-15"
+          },
+          {
+            "key": "language",
+            "value": ""
+          },
+          {
+            "key": "holder_name",
+            "value": "Comune di Sirolo"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "c_i758"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/e9a5cd31-b60a-4bcb-85da-7860e71199c9/resource/44aa856f-949d-4436-93ec-6b52f969116e/download/randagismopresenzeanno2020.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T13:36:28.699967",
+            "description": "Randagismo_presenze_anno_2020.csv",
+            "distribution_format": "csv",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/e9a5cd31-b60a-4bcb-85da-7860e71199c9/resource/44aa856f-949d-4436-93ec-6b52f969116e",
+            "format": "CSV",
+            "hash": "",
+            "id": "766acef1-d349-4e61-b017-ed9817ba7044",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T10:38:43.593359",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "Randagismo_presenze_anno_2020.csv",
+            "package_id": "f7471bac-cf80-48e7-b73a-525655bb1a52",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/e9a5cd31-b60a-4bcb-85da-7860e71199c9/resource/44aa856f-949d-4436-93ec-6b52f969116e",
+            "url": "https://dati.regione.marche.it/dataset/e9a5cd31-b60a-4bcb-85da-7860e71199c9/resource/44aa856f-949d-4436-93ec-6b52f969116e/download/randagismopresenzeanno2020.csv",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "N_A",
+            "id": "ea9293e4-ed1f-457a-96fd-daaea846bbe7",
+            "name": "N_A",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Marche",
+        "holder_identifier": "r_marche",
+        "issued": "2024-02-08T14:03:26.657426"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "401e9822-6c78-47a1-a988-b7f7a8526aba",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-04-30T13:35:48.842682",
+        "metadata_modified": "2026-06-27T20:42:17.007352",
+        "name": "ambiente-raccolta-differenziata-1",
+        "notes": "Raccolta differenziata",
+        "num_resources": 1,
+        "num_tags": 1,
+        "organization": {
+          "id": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+          "name": "regione-marche",
+          "title": "Regione Marche",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:42:05.252251",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Raccolta differenziata",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_name",
+            "value": "comune-di-sirolo"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.regione.marche.it/organization/5b366059-03f8-4c81-adb3-1818879e3399"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.regione.marche.it/dataset/a753bc74-de69-4898-baaf-7335a664c4ac"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.regione.marche.it/dataset/comune-di-sirolo-ambiente-raccolta-differenziata"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Open Data Regione Marche"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.regione.marche.it/#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/DEU"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-25T15:57:44.891056"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Marche\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "GoodPA"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.regione.marche.it/dataset/a753bc74-de69-4898-baaf-7335a664c4ac"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "d1ee7f8b-91ef-4af9-a8e1-dddc8e8a29e7"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "5f24dbed-f7d5-48fb-b152-dbe02423aeff"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Marche"
+          },
+          {
+            "key": "identifier",
+            "value": "c_i758:comune-di-sirolo-ambiente-raccolta-differenziata"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "N/A"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "N/A"
+          },
+          {
+            "key": "issued",
+            "value": "2024-02-08T14:02:59.378825"
+          },
+          {
+            "key": "modified",
+            "value": "2021-03-26"
+          },
+          {
+            "key": "language",
+            "value": ""
+          },
+          {
+            "key": "holder_name",
+            "value": "Comune di Sirolo"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "c_i758"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/a753bc74-de69-4898-baaf-7335a664c4ac/resource/f4567774-48bb-4815-96f9-552385bb8d62/download/raccoltadifferenziata2020.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T13:35:48.844360",
+            "description": "Raccolta_differenziata_2020.csv",
+            "distribution_format": "csv",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/a753bc74-de69-4898-baaf-7335a664c4ac/resource/f4567774-48bb-4815-96f9-552385bb8d62",
+            "format": "CSV",
+            "hash": "",
+            "id": "e9bcf2ee-178a-4e3d-a2ef-2f5a6297a356",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T10:38:25.145865",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "Raccolta_differenziata_2020.csv",
+            "package_id": "401e9822-6c78-47a1-a988-b7f7a8526aba",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/a753bc74-de69-4898-baaf-7335a664c4ac/resource/f4567774-48bb-4815-96f9-552385bb8d62",
+            "url": "https://dati.regione.marche.it/dataset/a753bc74-de69-4898-baaf-7335a664c4ac/resource/f4567774-48bb-4815-96f9-552385bb8d62/download/raccoltadifferenziata2020.csv",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "N_A",
+            "id": "ea9293e4-ed1f-457a-96fd-daaea846bbe7",
+            "name": "N_A",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Marche",
+        "holder_identifier": "r_marche",
+        "issued": "2024-02-08T14:02:59.378825"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "e420967d-7bc0-45d3-ab59-46b7f28274f8",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-04-30T15:38:49.687784",
+        "metadata_modified": "2026-06-27T21:32:55.761575",
+        "name": "ambiente-raccolta-differenziata-9",
+        "notes": "Raccolta differenziata",
+        "num_resources": 1,
+        "num_tags": 1,
+        "organization": {
+          "id": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+          "name": "regione-marche",
+          "title": "Regione Marche",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:42:05.252251",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Raccolta differenziata",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": "comune.agugliano@emarche.it"
+          },
+          {
+            "key": "contact_name",
+            "value": "comune-di-agugliano"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.regione.marche.it/organization/1214ad41-c549-4ab9-a11b-b15689cc7459"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.regione.marche.it/dataset/a795188b-7d1f-4c40-9ed5-0ceaf0bb0b2a"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.regione.marche.it/dataset/comune-di-agugliano-ambiente-raccolta-differenziata"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Open Data Regione Marche"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.regione.marche.it/#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/DEU"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-25T15:57:44.891056"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Marche\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "GoodPA"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.regione.marche.it/dataset/a795188b-7d1f-4c40-9ed5-0ceaf0bb0b2a"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "00ddacd6-e38b-40e9-ae7c-d982efc0f9ff"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "5f24dbed-f7d5-48fb-b152-dbe02423aeff"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Marche"
+          },
+          {
+            "key": "identifier",
+            "value": "c_a092:comune-di-agugliano-ambiente-raccolta-differenziata"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "N/A"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "N/A"
+          },
+          {
+            "key": "issued",
+            "value": "2024-02-08T08:47:11.051016"
+          },
+          {
+            "key": "modified",
+            "value": "2021-03-16"
+          },
+          {
+            "key": "language",
+            "value": ""
+          },
+          {
+            "key": "holder_name",
+            "value": "Comune di Agugliano"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "c_a092"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/a795188b-7d1f-4c40-9ed5-0ceaf0bb0b2a/resource/6466da5d-d681-45d0-867c-ae40449a3561/download/raccoltadifferenziata2020.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T15:38:49.688577",
+            "description": "raccolta-differenziata-2020.csv",
+            "distribution_format": "csv",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/a795188b-7d1f-4c40-9ed5-0ceaf0bb0b2a/resource/6466da5d-d681-45d0-867c-ae40449a3561",
+            "format": "CSV",
+            "hash": "",
+            "id": "e786f985-4a74-4b95-9853-33ff5de72423",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T11:31:29.953019",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "raccolta-differenziata-2020.csv",
+            "package_id": "e420967d-7bc0-45d3-ab59-46b7f28274f8",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/a795188b-7d1f-4c40-9ed5-0ceaf0bb0b2a/resource/6466da5d-d681-45d0-867c-ae40449a3561",
+            "url": "https://dati.regione.marche.it/dataset/a795188b-7d1f-4c40-9ed5-0ceaf0bb0b2a/resource/6466da5d-d681-45d0-867c-ae40449a3561/download/raccoltadifferenziata2020.csv",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "N_A",
+            "id": "ea9293e4-ed1f-457a-96fd-daaea846bbe7",
+            "name": "N_A",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Marche",
+        "holder_identifier": "r_marche",
+        "issued": "2024-02-08T08:47:11.051016"
+      },
+      {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "id": "d28d8cd0-26ae-4a3d-ae78-da4a1f84383c",
+        "isopen": false,
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2025-04-30T15:27:47.635436",
+        "metadata_modified": "2026-06-27T21:28:32.536345",
+        "name": "ambiente-raccolta-differenziata-8",
+        "notes": "Raccolta differenziata",
+        "num_resources": 1,
+        "num_tags": 1,
+        "organization": {
+          "id": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+          "name": "regione-marche",
+          "title": "Regione Marche",
+          "type": "organization",
+          "description": "",
+          "image_url": "",
+          "created": "2024-03-08T21:42:05.252251",
+          "is_organization": true,
+          "approval_status": "approved",
+          "state": "active"
+        },
+        "owner_org": "2bbf9fca-aef9-4264-b4ef-31848f2cf206",
+        "private": false,
+        "state": "active",
+        "title": "Ambiente - Raccolta differenziata",
+        "type": "dataset",
+        "url": "",
+        "version": null,
+        "extras": [
+          {
+            "key": "contact_email",
+            "value": "comune.camerano@halleycert.it"
+          },
+          {
+            "key": "contact_name",
+            "value": "comune-di-camerano"
+          },
+          {
+            "key": "contact_uri",
+            "value": "https://dati.regione.marche.it/organization/4c013b14-f255-4ca5-8455-2ebb3b9d22c1"
+          },
+          {
+            "key": "guid",
+            "value": "https://dati.regione.marche.it/dataset/bbaddca6-2dbc-413c-81a7-dd9f5fa7e048"
+          },
+          {
+            "key": "landingpage",
+            "value": "https://dati.regione.marche.it/dataset/comune-di-camerano-ambiente-raccolta-differenziata"
+          },
+          {
+            "key": "source_catalog_description",
+            "value": "Open Data Regione Marche"
+          },
+          {
+            "key": "source_catalog_homepage",
+            "value": "https://dati.regione.marche.it/#"
+          },
+          {
+            "key": "source_catalog_language",
+            "value": "http://publications.europa.eu/resource/authority/language/DEU"
+          },
+          {
+            "key": "source_catalog_modified",
+            "value": "2026-06-25T15:57:44.891056"
+          },
+          {
+            "key": "source_catalog_publisher",
+            "value": "{\"uri\": \"\", \"name\": \"Regione Marche\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+          },
+          {
+            "key": "source_catalog_title",
+            "value": "GoodPA"
+          },
+          {
+            "key": "uri",
+            "value": "https://dati.regione.marche.it/dataset/bbaddca6-2dbc-413c-81a7-dd9f5fa7e048"
+          },
+          {
+            "key": "theme",
+            "value": "[\"ENVI\"]"
+          },
+          {
+            "key": "harvest_object_id",
+            "value": "f28e6601-23c6-4098-b770-f125ecd70d19"
+          },
+          {
+            "key": "harvest_source_id",
+            "value": "5f24dbed-f7d5-48fb-b152-dbe02423aeff"
+          },
+          {
+            "key": "harvest_source_title",
+            "value": "Regione Marche"
+          },
+          {
+            "key": "identifier",
+            "value": "c_b468:comune-di-camerano-ambiente-raccolta-differenziata"
+          },
+          {
+            "key": "alternate_identifier",
+            "value": "[]"
+          },
+          {
+            "key": "themes_aggregate",
+            "value": "[{\"theme\": \"ENVI\", \"subthemes\": []}]"
+          },
+          {
+            "key": "publisher_name",
+            "value": "N/A"
+          },
+          {
+            "key": "publisher_identifier",
+            "value": "N/A"
+          },
+          {
+            "key": "issued",
+            "value": "2024-02-08T09:05:19.239015"
+          },
+          {
+            "key": "modified",
+            "value": "2021-04-15"
+          },
+          {
+            "key": "language",
+            "value": ""
+          },
+          {
+            "key": "holder_name",
+            "value": "Comune di Camerano"
+          },
+          {
+            "key": "holder_identifier",
+            "value": "c_b468"
+          },
+          {
+            "key": "frequency",
+            "value": "UNKNOWN"
+          },
+          {
+            "key": "conforms_to",
+            "value": "[{\"identifier\": \"http://dati.gov.it/onto/dcatapit#\", \"title\": {\"it\": \"\", \"en\": \"\"}, \"description\": {\"it\": \"\", \"en\": \"\"}, \"referenceDocumentation\": []}]"
+          },
+          {
+            "key": "creator",
+            "value": "[]"
+          }
+        ],
+        "groups": [
+          {
+            "description": "Ambiente",
+            "display_name": "Ambiente",
+            "id": "4d38497a-baf8-4ccc-bb62-492d7254d8f1",
+            "image_display_url": "",
+            "name": "ambiente",
+            "title": "Ambiente"
+          }
+        ],
+        "resources": [
+          {
+            "access_url": "https://dati.regione.marche.it/dataset/bbaddca6-2dbc-413c-81a7-dd9f5fa7e048/resource/82292db0-49bd-47d3-82b0-b1caf33c1dbe/download/raccoltadifferenziata.csv",
+            "cache_last_updated": null,
+            "cache_url": null,
+            "created": "2025-04-30T15:27:47.637251",
+            "description": "raccoltadifferenziata.csv",
+            "distribution_format": "csv",
+            "distribution_ref": "https://dati.regione.marche.it/dataset/bbaddca6-2dbc-413c-81a7-dd9f5fa7e048/resource/82292db0-49bd-47d3-82b0-b1caf33c1dbe",
+            "format": "CSV",
+            "hash": "",
+            "id": "aec9b56d-149c-4da2-8fc5-a7ba77a2b777",
+            "last_modified": null,
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+            "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40",
+            "metadata_modified": "2026-05-08T11:26:38.536854",
+            "mimetype": "text/csv",
+            "mimetype_inner": null,
+            "name": "raccoltadifferenziata.csv",
+            "package_id": "d28d8cd0-26ae-4a3d-ae78-da4a1f84383c",
+            "position": 0,
+            "resource_type": null,
+            "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+            "size": null,
+            "state": "active",
+            "uri": "https://dati.regione.marche.it/dataset/bbaddca6-2dbc-413c-81a7-dd9f5fa7e048/resource/82292db0-49bd-47d3-82b0-b1caf33c1dbe",
+            "url": "https://dati.regione.marche.it/dataset/bbaddca6-2dbc-413c-81a7-dd9f5fa7e048/resource/82292db0-49bd-47d3-82b0-b1caf33c1dbe/download/raccoltadifferenziata.csv",
+            "url_type": null
+          }
+        ],
+        "tags": [
+          {
+            "display_name": "N_A",
+            "id": "ea9293e4-ed1f-457a-96fd-daaea846bbe7",
+            "name": "N_A",
+            "state": "active",
+            "vocabulary_id": null
+          }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "dataset_is_local": false,
+        "holder_name": "Regione Marche",
+        "holder_identifier": "r_marche",
+        "issued": "2024-02-08T09:05:19.239015"
+      }
+    ],
+    "sort": "score desc, metadata_modified desc",
+    "search_facets": {}
+  }
+}
