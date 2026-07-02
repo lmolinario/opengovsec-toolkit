@@ -38,12 +38,20 @@ The initial OpenGovSec risk model is intentionally simple and explainable.
 
 ## API documentation finding catalogue
 
+The API documentation checker is a passive documentation review. It does not certify API security and does not perform live testing. It highlights missing or weak documentation signals that are relevant for API governance, interoperability review, and security-oriented documentation hygiene.
+
 | Code | Severity | Meaning |
 |---|---|---|
 | `missing-openapi-version` | medium | No OpenAPI or Swagger version field is present. |
 | `missing-paths` | high | No documented API paths are present. |
 | `missing-servers` | low | No server/base URL declaration is present. |
+| `missing-security-schemes` | medium | No reusable authentication or authorization scheme is documented. |
+| `missing-security-requirements` | medium | Security schemes exist but are not applied globally or at operation level. |
 | `weak-operation-text` | low | One or more operations lack summary or description text. |
+| `missing-operation-id` | low | One or more operations lack stable operationId values. |
+| `missing-error-responses` | low | One or more operations do not document common error responses. |
+| `missing-contact-metadata` | low | The API info block does not include contact metadata. |
+| `missing-license-metadata` | low | The API info block does not include license metadata. |
 
 ## Notes
 
