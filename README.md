@@ -21,8 +21,8 @@ Early-stage but usable prototype.
 Implemented:
 
 - Open Data Risk Scanner.
-- API Documentation Checker.
-- Repository Readiness Checker.
+- API Security Documentation Checker.
+- Repository Readiness / Supply-Chain Readiness Checker.
 - Public dati.gov.it metadata helper.
 - Markdown, JSON, and CSV report generation with summary and finding distribution.
 - Python package configuration.
@@ -71,11 +71,7 @@ Generate a machine-readable JSON report:
 opengovsec scan-open-data --input examples/sample_datasets.json --output reports/demo_open_data_report.json --format json
 ```
 
-Open-data reports include a summary section, a finding distribution table, and per-dataset details.
-
 ### Public dati.gov.it metadata example
-
-Download public CKAN metadata from dati.gov.it and generate reports:
 
 ```bash
 mkdir -p data reports
@@ -86,29 +82,37 @@ opengovsec scan-open-data --input data/dati_gov_it_ambiente.json --output report
 
 The helper downloads public catalogue metadata only. The scanner remains document-based and does not probe live services.
 
-### API documentation check
+### API security documentation check
+
+Run the security-complete demo document:
 
 ```bash
-opengovsec check-api-doc --input examples/sample_openapi.json
+opengovsec check-api-doc --input examples/sample_openapi.json --output reports/demo_api_good_report.md
 ```
 
-Generate a Markdown report:
+Run the intentionally weak demo document:
 
 ```bash
-opengovsec check-api-doc --input examples/sample_openapi.json --output reports/demo_api_report.md
+opengovsec check-api-doc --input examples/sample_openapi_weak.json --output reports/demo_api_weak_report.md
 ```
 
-### Repository readiness check
+The API checker reviews documented OpenAPI/Swagger signals such as security schemes, security requirements, operation identifiers, error responses, contact metadata, and license metadata. It does not perform live service testing and does not certify API security.
+
+### Repository supply-chain readiness check
+
+Run the supply-chain-ready demo metadata:
 
 ```bash
-opengovsec check-repository --input examples/sample_repository_metadata.json
+opengovsec check-repository --input examples/sample_repository_metadata.json --output reports/demo_repository_good_report.md
 ```
 
-Generate a Markdown report:
+Run the intentionally weak demo metadata:
 
 ```bash
-opengovsec check-repository --input examples/sample_repository_metadata.json --output reports/demo_repository_report.md
+opengovsec check-repository --input examples/sample_repository_metadata_weak.json --output reports/demo_repository_weak_report.md
 ```
+
+The repository checker reviews declared repository metadata and file inventory signals such as license, README, dependency manifests, lockfiles, CI, security policy, dependency update configuration, release metadata, SBOM declaration, and activity metadata. It does not inspect source code, resolve dependencies, or certify software supply-chain security.
 
 ## Demo reports
 
@@ -122,10 +126,20 @@ OpenGovSec includes reproducible demo reports generated from public CKAN metadat
 
 Aggregate demo summary: [`reports/dati_gov_it_demo_summary.csv`](reports/dati_gov_it_demo_summary.csv).
 
+### API and repository demo reports
+
+| Module | Input | Report | Result |
+|---|---|---|---|
+| API documentation | [`examples/sample_openapi.json`](examples/sample_openapi.json) | [`reports/demo_api_good_report.md`](reports/demo_api_good_report.md) | low risk, no findings |
+| API documentation | [`examples/sample_openapi_weak.json`](examples/sample_openapi_weak.json) | [`reports/demo_api_weak_report.md`](reports/demo_api_weak_report.md) | high risk, security-documentation findings |
+| Repository readiness | [`examples/sample_repository_metadata.json`](examples/sample_repository_metadata.json) | [`reports/demo_repository_good_report.md`](reports/demo_repository_good_report.md) | low risk, no findings |
+| Repository readiness | [`examples/sample_repository_metadata_weak.json`](examples/sample_repository_metadata_weak.json) | [`reports/demo_repository_weak_report.md`](reports/demo_repository_weak_report.md) | critical risk, supply-chain-readiness findings |
+
 These examples are intended to demonstrate the full workflow:
 
 ```text
 public catalogue metadata -> local JSON -> passive scanner -> Markdown/JSON report -> CSV summary
+OpenAPI or repository metadata -> passive documentation/readiness checker -> good/weak Markdown reports
 ```
 
 ## Modules
@@ -145,29 +159,36 @@ Initial checks:
 - organizational ownership;
 - risk scoring.
 
-### 2. API Documentation Checker
+### 2. API Security Documentation Checker
 
 Evaluates local OpenAPI-like JSON documents using passive documentation checks.
 
 Initial checks:
 
 - OpenAPI or Swagger version declaration;
-- documented paths;
-- server declaration;
-- operation summaries or descriptions;
+- documented paths and server declaration;
+- documented authentication or authorization schemes;
+- declared security requirements;
+- operation identifiers and operation text;
+- documented error responses;
+- contact and license metadata;
 - risk scoring.
 
-### 3. Repository Readiness Checker
+### 3. Repository Readiness / Supply-Chain Readiness Checker
 
-Evaluates local repository metadata declarations for reuse and maintainability signals.
+Evaluates local repository metadata declarations for reuse, maintainability, and lightweight supply-chain readiness signals.
 
 Initial checks:
 
 - license declaration;
 - README presence;
-- dependency manifest presence;
+- dependency manifest and lockfile presence;
 - CI workflow declaration;
 - contribution/community documentation;
+- security policy declaration;
+- dependency update configuration;
+- release or tag metadata;
+- SBOM declaration;
 - declared repository activity;
 - risk scoring.
 
