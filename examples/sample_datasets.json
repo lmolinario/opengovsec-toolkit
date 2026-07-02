@@ -1,0 +1,32 @@
+[
+  {
+    "id": "dataset-good-001",
+    "title": "Municipal mobility open data",
+    "notes": "Monthly machine-readable mobility dataset published for public reuse and transparency.",
+    "license_id": "CC-BY-4.0",
+    "metadata_modified": "2026-06-15T10:00:00+00:00",
+    "organization": {
+      "name": "demo-municipality",
+      "title": "Demo Municipality"
+    },
+    "resources": [
+      {
+        "name": "CSV export",
+        "format": "CSV",
+        "url": "https://example.invalid/mobility.csv"
+      }
+    ]
+  },
+  {
+    "id": "dataset-risk-001",
+    "title": "Legacy public document archive",
+    "notes": "Archive.",
+    "metadata_modified": "2020-01-01T00:00:00+00:00",
+    "resources": [
+      {
+        "name": "PDF document",
+        "format": "PDF"
+      }
+    ]
+  }
+]
