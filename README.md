@@ -22,7 +22,7 @@ Implemented:
 - API Documentation Checker.
 - Repository Readiness Checker.
 - Public dati.gov.it metadata helper.
-- Markdown and JSON report generation with summary and finding distribution.
+- Markdown, JSON, and CSV report generation with summary and finding distribution.
 - Python package configuration.
 - CLI entry point.
 - Sample input files.
@@ -118,10 +118,12 @@ OpenGovSec includes reproducible demo reports generated from public CKAN metadat
 | sanita | [`data/dati_gov_it_sanita.json`](data/dati_gov_it_sanita.json) | [`reports/dati_gov_it_sanita_report.md`](reports/dati_gov_it_sanita_report.md) | [`reports/dati_gov_it_sanita_report.json`](reports/dati_gov_it_sanita_report.json) | 20 datasets, all low risk; weak descriptions are the main finding. |
 | trasporti | [`data/dati_gov_it_trasporti.json`](data/dati_gov_it_trasporti.json) | [`reports/dati_gov_it_trasporti_report.md`](reports/dati_gov_it_trasporti_report.md) | [`reports/dati_gov_it_trasporti_report.json`](reports/dati_gov_it_trasporti_report.json) | 20 datasets, all low risk; service-style resources are the main finding. |
 
+Aggregate demo summary: [`reports/dati_gov_it_demo_summary.csv`](reports/dati_gov_it_demo_summary.csv).
+
 These examples are intended to demonstrate the full workflow:
 
 ```text
-public catalogue metadata -> local JSON -> passive scanner -> Markdown/JSON report
+public catalogue metadata -> local JSON -> passive scanner -> Markdown/JSON report -> CSV summary
 ```
 
 ## Modules
