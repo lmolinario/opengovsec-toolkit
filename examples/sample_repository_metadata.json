@@ -1,0 +1,12 @@
+{
+  "name": "demo-public-platform",
+  "license": "MIT",
+  "last_activity_days": 45,
+  "files": [
+    "README.md",
+    "LICENSE",
+    "pyproject.toml",
+    ".github/workflows/ci.yml",
+    "CONTRIBUTING.md"
+  ]
+}
