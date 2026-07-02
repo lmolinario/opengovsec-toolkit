@@ -2,11 +2,18 @@
   "name": "demo-public-platform",
   "license": "MIT",
   "last_activity_days": 45,
+  "releases_count": 3,
+  "tags_count": 5,
+  "has_sbom": true,
   "files": [
     "README.md",
     "LICENSE",
+    "SECURITY.md",
+    "CONTRIBUTING.md",
     "pyproject.toml",
+    "uv.lock",
     ".github/workflows/ci.yml",
-    "CONTRIBUTING.md"
+    ".github/dependabot.yml",
+    "sbom.spdx.json"
   ]
 }
