@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+import json
 from collections import Counter
+from dataclasses import asdict
 
 from opengovsec.schemas import DatasetAssessment
 
@@ -29,8 +31,22 @@ def render_open_data_report(assessments: list[DatasetAssessment]) -> str:
     return "\n".join(lines)
 
 
+def render_open_data_json(assessments: list[DatasetAssessment]) -> str:
+    """Render open-data assessments as machine-readable JSON."""
+
+    payload = {
+        "summary": {
+            "datasets_assessed": len(assessments),
+            "risk_levels": _risk_level_counts(assessments),
+        },
+        "finding_distribution": _finding_counts(assessments),
+        "datasets": [asdict(item) for item in assessments],
+    }
+    return json.dumps(payload, indent=2, ensure_ascii=False)
+
+
 def _render_summary(assessments: list[DatasetAssessment]) -> list[str]:
-    levels = Counter(item.risk_level for item in assessments)
+    levels = _risk_level_counts(assessments)
     lines = [
         "## Summary",
         "",
@@ -43,11 +59,7 @@ def _render_summary(assessments: list[DatasetAssessment]) -> list[str]:
 
 
 def _render_finding_distribution(assessments: list[DatasetAssessment]) -> list[str]:
-    counts = Counter(
-        finding.code
-        for item in assessments
-        for finding in item.findings
-    )
+    counts = _finding_counts(assessments)
     lines = ["## Finding distribution", ""]
     if not counts:
         lines.extend(["No findings detected.", ""])
@@ -58,3 +70,17 @@ def _render_finding_distribution(assessments: list[DatasetAssessment]) -> list[s
         lines.append(f"| `{code}` | {count} |")
     lines.append("")
     return lines
+
+
+def _risk_level_counts(assessments: list[DatasetAssessment]) -> dict[str, int]:
+    levels = Counter(item.risk_level for item in assessments)
+    return {level: levels.get(level, 0) for level in RISK_LEVELS}
+
+
+def _finding_counts(assessments: list[DatasetAssessment]) -> dict[str, int]:
+    counts = Counter(
+        finding.code
+        for item in assessments
+        for finding in item.findings
+    )
+    return dict(sorted(counts.items()))
