@@ -53,6 +53,24 @@ The API documentation checker is a passive documentation review. It does not cer
 | `missing-contact-metadata` | low | The API info block does not include contact metadata. |
 | `missing-license-metadata` | low | The API info block does not include license metadata. |
 
+## Repository readiness and supply-chain finding catalogue
+
+The repository checker is a passive metadata review. It does not inspect source code, resolve dependencies, run SCA tools, or certify software supply-chain security. It highlights missing repository signals that are useful for reuse, maintenance, governance, and lightweight supply-chain readiness assessment.
+
+| Code | Severity | Meaning |
+|---|---|---|
+| `missing-license` | medium | No repository license was declared. |
+| `missing-readme` | medium | No README.md file was declared. |
+| `missing-dependency-manifest` | medium | No common dependency manifest was declared. |
+| `missing-lockfile` | low | A dependency manifest exists but no common lockfile was declared. |
+| `missing-ci` | low | No GitHub Actions workflow was declared. |
+| `missing-community-docs` | low | No contribution or conduct file was declared. |
+| `missing-security-policy` | medium | No SECURITY.md file was declared. |
+| `missing-dependency-update-config` | low | No Dependabot or Renovate configuration was declared. |
+| `missing-release-metadata` | low | No releases or tags were declared in the repository metadata. |
+| `missing-sbom` | low | No SBOM file or has_sbom flag was declared. |
+| `stale-repository` | high | Repository activity metadata indicates long inactivity. |
+
 ## Notes
 
 This model is meant for prioritization and portfolio demonstration. It can be refined with domain-specific weights, policy requirements, and manual validation.
