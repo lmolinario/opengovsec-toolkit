@@ -1,8 +1,8 @@
 """Passive open-data metadata scanner.
 
 This module evaluates dataset metadata records without probing live systems.
-The first version is intentionally document-based: it checks the quality and
-completeness of metadata fields, resource declarations, licenses, and dates.
+It is document-based: it checks metadata quality, resource declarations,
+licenses, dates, and common CKAN/DCAT-AP fields used by Italian catalogues.
 """
 
 from __future__ import annotations
@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from opengovsec.schemas import DatasetAssessment, Finding
-from opengovsec.scoring import is_machine_readable_format, level_from_score, score_from_severities
+from opengovsec.scoring import level_from_score, score_from_severities
 
 DATE_KEYS = (
     "metadata_modified",
@@ -22,6 +22,38 @@ DATE_KEYS = (
     "metadata_created",
     "created",
 )
+
+RESOURCE_LOCATOR_KEYS = ("url", "access_url", "uri", "distribution_ref")
+RESOURCE_FORMAT_KEYS = ("format", "distribution_format", "mimetype", "mimetype_inner")
+
+DATA_FORMATS = {
+    "api",
+    "csv",
+    "geojson",
+    "json",
+    "kml",
+    "ods",
+    "parquet",
+    "rdf",
+    "shp",
+    "ttl",
+    "xls",
+    "xlsx",
+    "xml",
+}
+
+SERVICE_FORMATS = {
+    "map_srvc",
+    "wms",
+    "wfs",
+    "wmts",
+    "csw",
+}
+
+ARCHIVE_FORMATS = {
+    "zip",
+    "application/zip",
+}
 
 
 def load_json_file(path: str) -> object:
@@ -93,7 +125,7 @@ def _organization_name(record: dict) -> str | None:
         return organization.get("title") or organization.get("name")
     if isinstance(organization, str):
         return organization
-    return record.get("publisher") or record.get("owner_org")
+    return record.get("publisher") or record.get("owner_org") or record.get("holder_name")
 
 
 def _check_license(record: dict, findings: list[Finding]) -> None:
@@ -189,38 +221,97 @@ def _check_resources(resources: list, findings: list[Finding]) -> None:
         )
         return
 
-    readable_count = 0
-    missing_url_count = 0
+    data_resource_count = 0
+    service_resource_count = 0
+    archive_resource_count = 0
+    missing_locator_count = 0
 
     for resource in resources:
         if not isinstance(resource, dict):
             continue
-        if is_machine_readable_format(resource.get("format")):
-            readable_count += 1
-        if not resource.get("url"):
-            missing_url_count += 1
 
-    if readable_count == 0:
+        format_value = _resource_format(resource)
+        if _is_data_format(format_value):
+            data_resource_count += 1
+        elif _is_service_format(format_value):
+            service_resource_count += 1
+        elif _is_archive_format(format_value):
+            archive_resource_count += 1
+
+        if not _resource_locator(resource):
+            missing_locator_count += 1
+
+    if data_resource_count == 0 and archive_resource_count == 0 and service_resource_count > 0:
+        findings.append(
+            Finding(
+                code="service-only-resource",
+                severity="low",
+                title="Only service-style resources detected",
+                detail="Resources appear to expose map or catalogue services rather than direct files.",
+                recommendation="Provide at least one direct data download when possible, or document the service usage clearly.",
+            )
+        )
+    elif data_resource_count == 0 and archive_resource_count == 0:
         findings.append(
             Finding(
                 code="no-machine-readable-resource",
                 severity="medium",
                 title="No machine-readable resource format detected",
-                detail="No resource appears to be CSV, JSON, XML, RDF, GeoJSON, Parquet, XLSX, ODS, or API.",
+                detail="No resource appears to be a common data file, archive, or documented data service.",
                 recommendation="Publish at least one machine-readable resource.",
             )
         )
 
-    if missing_url_count:
+    if missing_locator_count:
         findings.append(
             Finding(
-                code="resource-missing-url",
+                code="resource-missing-locator",
                 severity="medium",
-                title="Resource URL missing",
-                detail=f"{missing_url_count} resource entries do not expose a URL.",
-                recommendation="Ensure every resource has a stable URL or endpoint reference.",
+                title="Resource locator missing",
+                detail=f"{missing_locator_count} resource entries do not expose a URL or equivalent locator.",
+                recommendation="Ensure every resource has url, access_url, uri, or distribution_ref metadata.",
             )
         )
+
+
+def _resource_format(resource: dict) -> str | None:
+    for key in RESOURCE_FORMAT_KEYS:
+        value = resource.get(key)
+        if isinstance(value, str) and value.strip():
+            return value
+    return None
+
+
+def _resource_locator(resource: dict) -> str | None:
+    for key in RESOURCE_LOCATOR_KEYS:
+        value = resource.get(key)
+        if isinstance(value, str) and value.strip():
+            return value
+    return None
+
+
+def _normalize_format(value: str | None) -> str:
+    if not value:
+        return ""
+    return value.strip().lower().lstrip(".")
+
+
+def _is_data_format(value: str | None) -> bool:
+    normalized = _normalize_format(value)
+    if normalized in DATA_FORMATS:
+        return True
+    if normalized in {"application/json", "text/csv", "application/xml", "text/xml"}:
+        return True
+    return normalized.endswith("+json") or normalized.endswith("+xml")
+
+
+def _is_service_format(value: str | None) -> bool:
+    normalized = _normalize_format(value)
+    return normalized in SERVICE_FORMATS or "wms" in normalized or "wfs" in normalized
+
+
+def _is_archive_format(value: str | None) -> bool:
+    return _normalize_format(value) in ARCHIVE_FORMATS
 
 
 def _parse_date(value: object) -> datetime | None:
