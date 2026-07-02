@@ -279,6 +279,30 @@ def _resource_format(resource: dict) -> str | None:
         value = resource.get(key)
         if isinstance(value, str) and value.strip():
             return value
+
+    hint = " ".join(
+        str(resource.get(key, "")) for key in RESOURCE_LOCATOR_KEYS if resource.get(key)
+    ).lower()
+    if "wms" in hint:
+        return "wms"
+    if "wfs" in hint:
+        return "wfs"
+    if "wmts" in hint:
+        return "wmts"
+    if "csw" in hint:
+        return "csw"
+    if ".csv" in hint:
+        return "csv"
+    if ".json" in hint:
+        return "json"
+    if ".geojson" in hint:
+        return "geojson"
+    if ".kml" in hint:
+        return "kml"
+    if ".xml" in hint:
+        return "xml"
+    if ".zip" in hint:
+        return "zip"
     return None
 
 
