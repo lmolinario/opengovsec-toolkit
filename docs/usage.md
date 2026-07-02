@@ -65,6 +65,20 @@ opengovsec scan-open-data --input data/dati_gov_it_ambiente.json --output report
 
 The downloaded JSON can then be reviewed, versioned if appropriate, or used as input for the open-data scanner.
 
+## 5. Build an aggregate demo summary
+
+OpenGovSec JSON reports can be aggregated into a compact CSV file for portfolio summaries, dashboards, or CI artifacts.
+
+```bash
+python scripts/build_demo_summary.py \
+  reports/dati_gov_it_ambiente_report.json \
+  reports/dati_gov_it_sanita_report.json \
+  reports/dati_gov_it_trasporti_report.json \
+  --output reports/dati_gov_it_demo_summary.csv
+```
+
+The resulting CSV summarizes dataset counts, risk-level counts, and finding distributions for each demo query.
+
 ## Current design principle
 
 The current version is document-based and non-invasive. It reads local files provided by the user and produces triage-style reports.
