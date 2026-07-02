@@ -28,6 +28,8 @@ Open-data reports include a summary section, a finding distribution table, and p
 
 Input: a local OpenAPI-like JSON document.
 
+Run the security-complete demo document:
+
 ```bash
 opengovsec check-api-doc --input examples/sample_openapi.json
 ```
@@ -36,6 +38,12 @@ Write a Markdown report:
 
 ```bash
 opengovsec check-api-doc --input examples/sample_openapi.json --output reports/demo_api_report.md
+```
+
+Run the intentionally weak demo document:
+
+```bash
+opengovsec check-api-doc --input examples/sample_openapi_weak.json --output reports/demo_api_weak_report.md
 ```
 
 The API checker is security-documentation oriented. It reviews documented OpenAPI/Swagger signals such as security schemes, security requirements, operation identifiers, documented error responses, contact metadata, and license metadata. It does not perform live service testing and does not certify API security.
