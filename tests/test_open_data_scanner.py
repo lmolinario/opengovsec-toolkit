@@ -87,3 +87,28 @@ def test_service_format_can_be_inferred_from_distribution_ref():
     assert "service-only-resource" in codes
     assert "resource-missing-locator" not in codes
     assert "no-machine-readable-resource" not in codes
+
+
+def test_catalogue_record_resource_is_not_machine_readable_error():
+    assessment = assess_dataset(
+        {
+            "id": "x",
+            "title": "RNDT catalogue dataset",
+            "notes": "A sufficiently descriptive RNDT-style catalogue record for testing.",
+            "license_id": "CC-BY-4.0",
+            "metadata_modified": "2026-06-01T00:00:00+00:00",
+            "organization": {"title": "Demo organization"},
+            "resources": [
+                {
+                    "format": "",
+                    "url": "",
+                    "uri": "https://geodati.gov.it/resource/distribution/example/OP_DATPRO-2117",
+                    "distribution_ref": "https://geodati.gov.it/resource/distribution/example/OP_DATPRO-2117",
+                }
+            ],
+        }
+    )
+    codes = {finding.code for finding in assessment.findings}
+    assert "catalogue-record-resource" in codes
+    assert "no-machine-readable-resource" not in codes
+    assert "resource-missing-locator" not in codes
