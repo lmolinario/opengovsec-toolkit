@@ -4,7 +4,7 @@ import argparse
 from pathlib import Path
 
 from opengovsec.api_reporting import render_api_report
-from opengovsec.reporting import render_open_data_report
+from opengovsec.reporting import render_open_data_json, render_open_data_report
 from opengovsec.repository_reporting import render_repository_report
 from opengovsec.scanners.api_documentation_checker import assess_api_document, load_api_file
 from opengovsec.scanners.open_data_scanner import assess_records, load_json_file, normalize_dataset_records
@@ -18,6 +18,7 @@ def build_parser() -> argparse.ArgumentParser:
     a = sub.add_parser("scan-open-data")
     a.add_argument("--input", required=True)
     a.add_argument("--output")
+    a.add_argument("--format", choices=("markdown", "json"), default="markdown")
 
     b = sub.add_parser("check-api-doc")
     b.add_argument("--input", required=True)
@@ -43,7 +44,11 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "scan-open-data":
         data = load_json_file(args.input)
         records = normalize_dataset_records(data)
-        emit(render_open_data_report(assess_records(records)), args.output)
+        assessments = assess_records(records)
+        if args.format == "json":
+            emit(render_open_data_json(assessments), args.output)
+        else:
+            emit(render_open_data_report(assessments), args.output)
         return 0
     if args.command == "check-api-doc":
         emit(render_api_report(assess_api_document(load_api_file(args.input))), args.output)
