@@ -16,6 +16,12 @@ Write a Markdown report:
 opengovsec scan-open-data --input examples/sample_datasets.json --output reports/demo_open_data_report.md
 ```
 
+Write a machine-readable JSON report:
+
+```bash
+opengovsec scan-open-data --input examples/sample_datasets.json --output reports/demo_open_data_report.json --format json
+```
+
 Open-data reports include a summary section, a finding distribution table, and per-dataset details.
 
 ## 2. Check API documentation
@@ -54,6 +60,7 @@ The helper script downloads public CKAN metadata into a local JSON file.
 mkdir -p data reports
 python scripts/fetch_dati_gov_it.py --query ambiente --limit 20 --output data/dati_gov_it_ambiente.json
 opengovsec scan-open-data --input data/dati_gov_it_ambiente.json --output reports/dati_gov_it_ambiente_report.md
+opengovsec scan-open-data --input data/dati_gov_it_ambiente.json --output reports/dati_gov_it_ambiente_report.json --format json
 ```
 
 The downloaded JSON can then be reviewed, versioned if appropriate, or used as input for the open-data scanner.
