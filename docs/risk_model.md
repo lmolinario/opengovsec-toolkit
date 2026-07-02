@@ -31,9 +31,10 @@ The initial OpenGovSec risk model is intentionally simple and explainable.
 | `missing-update-date` | medium | No reliable update date is present. |
 | `stale-dataset` | medium/high | Metadata appears old. |
 | `missing-resources` | high | No documented dataset resources are present. |
-| `no-machine-readable-resource` | medium | No declared data file, archive, or service format is present. |
+| `no-machine-readable-resource` | medium | No declared data file, archive, service, or catalogue-style resource is present. |
 | `resource-missing-locator` | medium | One or more resources lack url, access_url, uri, or distribution_ref. |
 | `service-only-resource` | low | Only service-style resources are declared. |
+| `catalogue-record-resource` | low | Only catalogue-style metadata resources are declared. |
 
 ## API documentation finding catalogue
 
