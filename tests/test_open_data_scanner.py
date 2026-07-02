@@ -18,3 +18,47 @@ def test_assess_dataset_with_missing_metadata():
     assert "missing-license" in codes
     assert "missing-resources" in codes
     assert assessment.risk_score > 0
+
+
+def test_access_url_and_distribution_format_are_recognized():
+    assessment = assess_dataset(
+        {
+            "id": "x",
+            "title": "CSV dataset",
+            "notes": "A sufficiently descriptive open data record for testing.",
+            "license_id": "CC-BY-4.0",
+            "metadata_modified": "2026-06-01T00:00:00+00:00",
+            "organization": {"title": "Demo organization"},
+            "resources": [
+                {
+                    "access_url": "https://example.invalid/data.csv",
+                    "distribution_format": "CSV",
+                }
+            ],
+        }
+    )
+    codes = {finding.code for finding in assessment.findings}
+    assert "resource-missing-locator" not in codes
+    assert "no-machine-readable-resource" not in codes
+
+
+def test_service_resource_is_reported_as_service_only():
+    assessment = assess_dataset(
+        {
+            "id": "x",
+            "title": "Map service dataset",
+            "notes": "A sufficiently descriptive geospatial service record for testing.",
+            "license_id": "CC-BY-4.0",
+            "metadata_modified": "2026-06-01T00:00:00+00:00",
+            "organization": {"title": "Demo organization"},
+            "resources": [
+                {
+                    "uri": "https://example.invalid/wms",
+                    "distribution_format": "MAP_SRVC",
+                }
+            ],
+        }
+    )
+    codes = {finding.code for finding in assessment.findings}
+    assert "service-only-resource" in codes
+    assert "resource-missing-locator" not in codes
