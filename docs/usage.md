@@ -52,6 +52,8 @@ The API checker is security-documentation oriented. It reviews documented OpenAP
 
 Input: a local JSON file that declares basic repository metadata.
 
+Run the supply-chain-ready demo metadata:
+
 ```bash
 opengovsec check-repository --input examples/sample_repository_metadata.json
 ```
@@ -61,6 +63,14 @@ Write a Markdown report:
 ```bash
 opengovsec check-repository --input examples/sample_repository_metadata.json --output reports/demo_repository_report.md
 ```
+
+Run the intentionally weak demo metadata:
+
+```bash
+opengovsec check-repository --input examples/sample_repository_metadata_weak.json --output reports/demo_repository_weak_report.md
+```
+
+The repository checker is supply-chain-readiness oriented. It reviews declared repository metadata and file inventory signals such as license, README, dependency manifests, lockfiles, CI, security policy, dependency update configuration, release metadata, SBOM declaration, and activity metadata. It does not inspect source code, resolve dependencies, or certify software supply-chain security.
 
 ## 4. Fetch metadata from dati.gov.it
 
