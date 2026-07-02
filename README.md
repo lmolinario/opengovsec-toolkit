@@ -21,7 +21,8 @@ Implemented:
 - Open Data Risk Scanner.
 - API Documentation Checker.
 - Repository Readiness Checker.
-- Markdown report generation.
+- Public dati.gov.it metadata helper.
+- Markdown report generation with summary and finding distribution.
 - Python package configuration.
 - CLI entry point.
 - Sample input files.
@@ -62,6 +63,20 @@ Generate a Markdown report:
 opengovsec scan-open-data --input examples/sample_datasets.json --output reports/demo_open_data_report.md
 ```
 
+Open-data reports include a summary section, a finding distribution table, and per-dataset details.
+
+### Public dati.gov.it metadata example
+
+Download public CKAN metadata from dati.gov.it and generate a report:
+
+```bash
+mkdir -p data reports
+python scripts/fetch_dati_gov_it.py --query ambiente --limit 20 --output data/dati_gov_it_ambiente.json
+opengovsec scan-open-data --input data/dati_gov_it_ambiente.json --output reports/dati_gov_it_ambiente_report_v4.md
+```
+
+The helper downloads public catalogue metadata only. The scanner remains document-based and does not probe live services.
+
 ### API documentation check
 
 ```bash
@@ -86,6 +101,22 @@ Generate a Markdown report:
 opengovsec check-repository --input examples/sample_repository_metadata.json --output reports/demo_repository_report.md
 ```
 
+## Demo reports
+
+OpenGovSec includes reproducible demo reports generated from public CKAN metadata downloaded from dati.gov.it.
+
+| Query | Source data | Report | Summary |
+|---|---|---|---|
+| ambiente | [`data/dati_gov_it_ambiente.json`](data/dati_gov_it_ambiente.json) | [`reports/dati_gov_it_ambiente_report_v4.md`](reports/dati_gov_it_ambiente_report_v4.md) | 20 datasets, all low risk; service and catalogue-style resources identified. |
+| sanita | [`data/dati_gov_it_sanita.json`](data/dati_gov_it_sanita.json) | [`reports/dati_gov_it_sanita_report.md`](reports/dati_gov_it_sanita_report.md) | 20 datasets, all low risk; weak descriptions are the main finding. |
+| trasporti | [`data/dati_gov_it_trasporti.json`](data/dati_gov_it_trasporti.json) | [`reports/dati_gov_it_trasporti_report.md`](reports/dati_gov_it_trasporti_report.md) | 20 datasets, all low risk; service-style resources are the main finding. |
+
+These examples are intended to demonstrate the full workflow:
+
+```text
+public catalogue metadata -> local JSON -> passive scanner -> Markdown report
+```
+
 ## Modules
 
 ### 1. Open Data Risk Scanner
@@ -98,7 +129,8 @@ Initial checks:
 - license availability;
 - metadata completeness;
 - machine-readable formats;
-- declared resource URLs;
+- declared resource locators;
+- service-style and catalogue-style resource declarations;
 - organizational ownership;
 - risk scoring.
 
