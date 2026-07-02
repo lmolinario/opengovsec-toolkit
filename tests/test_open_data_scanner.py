@@ -62,3 +62,28 @@ def test_service_resource_is_reported_as_service_only():
     codes = {finding.code for finding in assessment.findings}
     assert "service-only-resource" in codes
     assert "resource-missing-locator" not in codes
+
+
+def test_service_format_can_be_inferred_from_distribution_ref():
+    assessment = assess_dataset(
+        {
+            "id": "x",
+            "title": "RNDT service dataset",
+            "notes": "A sufficiently descriptive RNDT-style service record for testing.",
+            "license_id": "CC-BY-4.0",
+            "metadata_modified": "2026-06-01T00:00:00+00:00",
+            "organization": {"title": "Demo organization"},
+            "resources": [
+                {
+                    "format": "",
+                    "url": "",
+                    "uri": "https://geodati.gov.it/resource/distribution/example/WMS_SRVC-123",
+                    "distribution_ref": "https://geodati.gov.it/resource/distribution/example/WMS_SRVC-123",
+                }
+            ],
+        }
+    )
+    codes = {finding.code for finding in assessment.findings}
+    assert "service-only-resource" in codes
+    assert "resource-missing-locator" not in codes
+    assert "no-machine-readable-resource" not in codes
