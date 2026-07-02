@@ -4,6 +4,8 @@ OpenGovSec Toolkit is an open-source cybersecurity and digital-governance toolki
 
 The project focuses on practical, reproducible, and transparent checks for public-sector digital ecosystems, with an initial focus on Italian public-administration resources such as open-data catalogues, interoperability documentation, and reusable open-source software.
 
+Project page: https://lmolinario.github.io/opengovsec/
+
 ## Goals
 
 - Assess open-data metadata quality and operational risk.
