@@ -55,6 +55,13 @@ ARCHIVE_FORMATS = {
     "application/zip",
 }
 
+CATALOGUE_HINTS = {
+    "op_datpro",
+    "n/a",
+    "n_a",
+    "none",
+}
+
 
 def load_json_file(path: str) -> object:
     """Load dataset metadata from a local JSON file."""
@@ -224,6 +231,7 @@ def _check_resources(resources: list, findings: list[Finding]) -> None:
     data_resource_count = 0
     service_resource_count = 0
     archive_resource_count = 0
+    catalogue_record_count = 0
     missing_locator_count = 0
 
     for resource in resources:
@@ -237,11 +245,24 @@ def _check_resources(resources: list, findings: list[Finding]) -> None:
             service_resource_count += 1
         elif _is_archive_format(format_value):
             archive_resource_count += 1
+        elif _is_catalogue_record_resource(resource, format_value):
+            catalogue_record_count += 1
 
         if not _resource_locator(resource):
             missing_locator_count += 1
 
-    if data_resource_count == 0 and archive_resource_count == 0 and service_resource_count > 0:
+    has_direct_or_service_resource = data_resource_count > 0 or archive_resource_count > 0 or service_resource_count > 0
+    if not has_direct_or_service_resource and catalogue_record_count > 0:
+        findings.append(
+            Finding(
+                code="catalogue-record-resource",
+                severity="low",
+                title="Catalogue-style resource detected",
+                detail="Resources have metadata locators but do not declare a direct data, archive, or service format.",
+                recommendation="Keep the catalogue reference, and add a direct data file or service declaration when available.",
+            )
+        )
+    elif data_resource_count == 0 and archive_resource_count == 0 and service_resource_count > 0:
         findings.append(
             Finding(
                 code="service-only-resource",
@@ -280,9 +301,7 @@ def _resource_format(resource: dict) -> str | None:
         if isinstance(value, str) and value.strip():
             return value
 
-    hint = " ".join(
-        str(resource.get(key, "")) for key in RESOURCE_LOCATOR_KEYS if resource.get(key)
-    ).lower()
+    hint = _resource_hint(resource)
     if "wms" in hint:
         return "wms"
     if "wfs" in hint:
@@ -314,6 +333,15 @@ def _resource_locator(resource: dict) -> str | None:
     return None
 
 
+def _resource_hint(resource: dict) -> str:
+    values = []
+    for key in (*RESOURCE_LOCATOR_KEYS, *RESOURCE_FORMAT_KEYS, "name", "description"):
+        value = resource.get(key)
+        if isinstance(value, str) and value.strip():
+            values.append(value)
+    return " ".join(values).lower()
+
+
 def _normalize_format(value: str | None) -> str:
     if not value:
         return ""
@@ -336,6 +364,16 @@ def _is_service_format(value: str | None) -> bool:
 
 def _is_archive_format(value: str | None) -> bool:
     return _normalize_format(value) in ARCHIVE_FORMATS
+
+
+def _is_catalogue_record_resource(resource: dict, format_value: str | None) -> bool:
+    if not _resource_locator(resource):
+        return False
+    normalized = _normalize_format(format_value)
+    hint = _resource_hint(resource)
+    if normalized in CATALOGUE_HINTS:
+        return True
+    return any(token in hint for token in CATALOGUE_HINTS)
 
 
 def _parse_date(value: object) -> datetime | None:
