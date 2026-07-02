@@ -29,5 +29,8 @@ jobs:
       - name: Run tests
         run: pytest
 
-      - name: Run CLI smoke test
+      - name: Run open-data CLI smoke test
         run: opengovsec scan-open-data --input examples/sample_datasets.json --output reports/demo_open_data_report.md
+
+      - name: Run API documentation CLI smoke test
+        run: opengovsec check-api-doc --input examples/sample_openapi.json --output reports/demo_api_report.md
