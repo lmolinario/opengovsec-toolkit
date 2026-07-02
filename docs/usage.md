@@ -38,6 +38,8 @@ Write a Markdown report:
 opengovsec check-api-doc --input examples/sample_openapi.json --output reports/demo_api_report.md
 ```
 
+The API checker is security-documentation oriented. It reviews documented OpenAPI/Swagger signals such as security schemes, security requirements, operation identifiers, documented error responses, contact metadata, and license metadata. It does not perform live service testing and does not certify API security.
+
 ## 3. Check repository readiness
 
 Input: a local JSON file that declares basic repository metadata.
