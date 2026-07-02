@@ -1,0 +1,4 @@
+query,datasets_assessed,low_risk,medium_risk,high_risk,critical_risk,finding_distribution,json_report
+ambiente,20,20,0,0,0,"catalogue-record-resource=1; service-only-resource=2; weak-description=2",reports/dati_gov_it_ambiente_report.json
+sanita,20,20,0,0,0,weak-description=11,reports/dati_gov_it_sanita_report.json
+trasporti,20,20,0,0,0,service-only-resource=3,reports/dati_gov_it_trasporti_report.json
