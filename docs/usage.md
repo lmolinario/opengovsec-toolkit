@@ -16,6 +16,8 @@ Write a Markdown report:
 opengovsec scan-open-data --input examples/sample_datasets.json --output reports/demo_open_data_report.md
 ```
 
+Open-data reports include a summary section, a finding distribution table, and per-dataset details.
+
 ## 2. Check API documentation
 
 Input: a local OpenAPI-like JSON document.
