@@ -1,10 +1,16 @@
 # OpenGovSec Toolkit
 
+[![CI](https://github.com/lmolinario/opengovsec-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/lmolinario/opengovsec-toolkit/actions/workflows/ci.yml)
+
 OpenGovSec Toolkit is an open-source cybersecurity and digital-governance toolkit for assessing public-sector open data, API documentation, metadata quality, and software supply-chain exposure.
 
 The project focuses on practical, reproducible, and transparent checks for public-sector digital ecosystems, with an initial focus on Italian public-administration resources such as open-data catalogues, interoperability documentation, and reusable open-source software.
 
+Current milestone: `v0.1.0` portfolio-ready MVP.
+
 Project page: https://lmolinario.github.io/opengovsec/
+
+Release notes: [`docs/releases/v0.1.0.md`](docs/releases/v0.1.0.md)
 
 ## Goals
 
@@ -204,6 +210,7 @@ The scanner modules read local files and public catalogue metadata and produce t
 - [`docs/risk_model.md`](docs/risk_model.md)
 - [`docs/roadmap.md`](docs/roadmap.md)
 - [`docs/usage.md`](docs/usage.md)
+- [`docs/releases/v0.1.0.md`](docs/releases/v0.1.0.md)
 
 ## License
 
