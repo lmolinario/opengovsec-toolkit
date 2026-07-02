@@ -1,6 +1,6 @@
 # Usage
 
-OpenGovSec Toolkit currently provides three passive commands.
+OpenGovSec Toolkit currently provides three passive commands and one public metadata helper script.
 
 ## 1. Scan open-data metadata
 
@@ -44,8 +44,20 @@ Write a Markdown report:
 opengovsec check-repository --input examples/sample_repository_metadata.json --output reports/demo_repository_report.md
 ```
 
+## 4. Fetch metadata from dati.gov.it
+
+The helper script downloads public CKAN metadata into a local JSON file.
+
+```bash
+mkdir -p data reports
+python scripts/fetch_dati_gov_it.py --query ambiente --limit 20 --output data/dati_gov_it_ambiente.json
+opengovsec scan-open-data --input data/dati_gov_it_ambiente.json --output reports/dati_gov_it_ambiente_report.md
+```
+
+The downloaded JSON can then be reviewed, versioned if appropriate, or used as input for the open-data scanner.
+
 ## Current design principle
 
 The current version is document-based and non-invasive. It reads local files provided by the user and produces triage-style reports.
 
-No live service assessment is performed by the initial modules.
+No live service assessment is performed by the scanner modules. The dati.gov.it helper only downloads public catalogue metadata.
