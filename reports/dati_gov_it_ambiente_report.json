@@ -1,0 +1,217 @@
+{
+  "summary": {
+    "datasets_assessed": 20,
+    "risk_levels": {
+      "low": 20,
+      "medium": 0,
+      "high": 0,
+      "critical": 0
+    }
+  },
+  "finding_distribution": {
+    "catalogue-record-resource": 1,
+    "service-only-resource": 2,
+    "weak-description": 2
+  },
+  "datasets": [
+    {
+      "identifier": "c9286fd4-4598-4df8-9417-4cd04676a86d",
+      "title": "Ambiente",
+      "organization": "GeoDati - RNDT",
+      "risk_score": 2,
+      "risk_level": "low",
+      "findings": [
+        {
+          "code": "weak-description",
+          "severity": "low",
+          "title": "Missing or weak description",
+          "detail": "The dataset description is missing or too short to support reuse.",
+          "recommendation": "Add a meaningful description, scope, update policy, and reuse context."
+        },
+        {
+          "code": "service-only-resource",
+          "severity": "low",
+          "title": "Only service-style resources detected",
+          "detail": "Resources appear to expose map or catalogue services rather than direct files.",
+          "recommendation": "Provide at least one direct data download when possible, or document the service usage clearly."
+        }
+      ]
+    },
+    {
+      "identifier": "0a66346b-3f83-4aef-ba46-2d431d4239be",
+      "title": "Ambiente",
+      "organization": "GeoDati - RNDT",
+      "risk_score": 1,
+      "risk_level": "low",
+      "findings": [
+        {
+          "code": "catalogue-record-resource",
+          "severity": "low",
+          "title": "Catalogue-style resource detected",
+          "detail": "Resources have metadata locators but do not declare a direct data, archive, or service format.",
+          "recommendation": "Keep the catalogue reference, and add a direct data file or service declaration when available."
+        }
+      ]
+    },
+    {
+      "identifier": "6cdec75e-bb8b-41a6-9b37-67ceb9a9c8c1",
+      "title": "Ambiente - Rifiuti",
+      "organization": "Regione Marche",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    },
+    {
+      "identifier": "e1284f8b-fbae-4b38-9dd4-c2a435e65d9f",
+      "title": "Ambiente - Rifiuti",
+      "organization": "Regione Marche",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    },
+    {
+      "identifier": "107811e6-5e7b-43a5-9abb-31adeb80d56f",
+      "title": "Ambiente - Rifiuti",
+      "organization": "Regione Marche",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    },
+    {
+      "identifier": "ad947016-df1f-4460-8a83-d11fbb2d44d0",
+      "title": "Ambiente - Rifiuti",
+      "organization": "Regione Marche",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    },
+    {
+      "identifier": "47eb0fb9-31b2-4736-bfa9-91f441007f07",
+      "title": "Ambiente - Rifiuti",
+      "organization": "Regione Marche",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    },
+    {
+      "identifier": "c77e70e1-9b13-4485-82c5-29c62f676d31",
+      "title": "Ambiente - Rifiuti",
+      "organization": "Regione Marche",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    },
+    {
+      "identifier": "b563f980-13a6-4ca2-9ec7-4d7d9039d8b0",
+      "title": "Ambiente - Rifiuti",
+      "organization": "Regione Marche",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    },
+    {
+      "identifier": "8d547214-b6b3-480f-a094-c91bdf555e21",
+      "title": "Ambiente - Rifiuti",
+      "organization": "Regione Marche",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    },
+    {
+      "identifier": "5995caa9-d579-4c22-8ff9-12749ca1a15e",
+      "title": "Ambiente - Sedi CEAS",
+      "organization": "Regione Emilia Romagna",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    },
+    {
+      "identifier": "9289b2f9-eba3-42a7-8276-36b9c510f4ed",
+      "title": "Ambiente - Rete natura",
+      "organization": "Regione Emilia Romagna",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    },
+    {
+      "identifier": "aba8d8ab-7766-4313-814e-1c4cf958c7de",
+      "title": "Ambiente - Aree protette",
+      "organization": "Regione Emilia Romagna",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    },
+    {
+      "identifier": "89856155-3012-4113-b9cc-568d19632664",
+      "title": "Ambiente - Aree protette",
+      "organization": "GeoDati - RNDT",
+      "risk_score": 1,
+      "risk_level": "low",
+      "findings": [
+        {
+          "code": "service-only-resource",
+          "severity": "low",
+          "title": "Only service-style resources detected",
+          "detail": "Resources appear to expose map or catalogue services rather than direct files.",
+          "recommendation": "Provide at least one direct data download when possible, or document the service usage clearly."
+        }
+      ]
+    },
+    {
+      "identifier": "7d0c859c-f31f-414a-9ed4-e38c55e96100",
+      "title": "Ambiente e Natura",
+      "organization": "Regione Emilia Romagna",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    },
+    {
+      "identifier": "44564c6c-0f05-403a-9f72-7c9a450db611",
+      "title": "Ambiente - Raccolta differenziata",
+      "organization": "Regione Marche",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    },
+    {
+      "identifier": "f7471bac-cf80-48e7-b73a-525655bb1a52",
+      "title": "Ambiente - Randagismo animale",
+      "organization": "Regione Marche",
+      "risk_score": 1,
+      "risk_level": "low",
+      "findings": [
+        {
+          "code": "weak-description",
+          "severity": "low",
+          "title": "Missing or weak description",
+          "detail": "The dataset description is missing or too short to support reuse.",
+          "recommendation": "Add a meaningful description, scope, update policy, and reuse context."
+        }
+      ]
+    },
+    {
+      "identifier": "401e9822-6c78-47a1-a988-b7f7a8526aba",
+      "title": "Ambiente - Raccolta differenziata",
+      "organization": "Regione Marche",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    },
+    {
+      "identifier": "e420967d-7bc0-45d3-ab59-46b7f28274f8",
+      "title": "Ambiente - Raccolta differenziata",
+      "organization": "Regione Marche",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    },
+    {
+      "identifier": "d28d8cd0-26ae-4a3d-ae78-da4a1f84383c",
+      "title": "Ambiente - Raccolta differenziata",
+      "organization": "Regione Marche",
+      "risk_score": 0,
+      "risk_level": "low",
+      "findings": []
+    }
+  ]
+}
